@@ -1,1 +1,4 @@
 {"action":"OPEN","side":"LONG","price":67675.21,"qty":"0.073882","size":"5000.00","timestamp":"2026-02-27T07:12:44.436Z"}
+{"action":"CLOSE_REV","side":"LONG","entry":67675.21,"exit":67037.54637166268,"pnl":"-0.94%","capital":"9952.89","timestamp":"2026-02-27T10:13:26.737Z"}
+{"action":"OPEN","side":"LONG","price":66778.58456528778,"qty":"0.074522","size":"4976.44","timestamp":"2026-02-27T10:43:26.788Z"}
+{"action":"CLOSE_MANUAL","side":"LONG","entry":66778.58456528778,"exit":66656.43764823875,"pnl":"-0.18%","dollarPnl":"-9.10","capital":"9943.79","timestamp":"2026-02-27T10:54:34.228Z"}

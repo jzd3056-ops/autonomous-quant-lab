@@ -1,0 +1,3089 @@
+{
+  "timestamp": "2026-02-27T10:54:10.945Z",
+  "dataRange": {
+    "from": "2026-02-20T11:02:43.278Z",
+    "to": "2026-02-27T10:53:56.000Z",
+    "points": 169
+  },
+  "best": "Ultra_2_5",
+  "results": [
+    {
+      "name": "Scalper_3_8",
+      "closedCount": 28,
+      "totalReturn": "-1.36%",
+      "winRate": "50.0%",
+      "finalValue": 9864.16,
+      "params": {
+        "name": "Scalper_3_8",
+        "emaFast": 3,
+        "emaSlow": 8,
+        "rsiPeriod": 6,
+        "rsiBuy": 45,
+        "rsiSell": 55,
+        "stopLoss": -1.5,
+        "takeProfit": 2
+      },
+      "trades": [
+        {
+          "time": "2026-02-21T04:02:45.685Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67636.10",
+          "qty": "0.029570",
+          "size": "2000.00"
+        },
+        {
+          "time": "2026-02-21T09:02:18.042Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 67636.09802439428,
+          "exit": 68033.45506604825,
+          "pnl": "-0.59%",
+          "dollarPnl": "-11.75",
+          "capital": "9988.25"
+        },
+        {
+          "time": "2026-02-21T09:02:18.042Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68033.46",
+          "qty": "0.029363",
+          "size": "1997.65"
+        },
+        {
+          "time": "2026-02-21T10:02:32.943Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68033.45506604825,
+          "exit": 68134.27481021718,
+          "pnl": "0.15%",
+          "dollarPnl": "2.96",
+          "capital": "9991.21"
+        },
+        {
+          "time": "2026-02-21T15:01:55.506Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68447.85",
+          "qty": "0.029194",
+          "size": "1998.24"
+        },
+        {
+          "time": "2026-02-21T23:03:25.336Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68447.8539525863,
+          "exit": 67951.15591282771,
+          "pnl": "0.73%",
+          "dollarPnl": "14.50",
+          "capital": "10005.71"
+        },
+        {
+          "time": "2026-02-21T23:03:25.336Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67951.16",
+          "qty": "0.029450",
+          "size": "2001.14"
+        },
+        {
+          "time": "2026-02-22T00:02:08.172Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67951.15591282771,
+          "exit": 67978.79019389286,
+          "pnl": "-0.04%",
+          "dollarPnl": "-0.81",
+          "capital": "10004.90"
+        },
+        {
+          "time": "2026-02-22T11:02:08.739Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68119.23",
+          "qty": "0.029375",
+          "size": "2000.98"
+        },
+        {
+          "time": "2026-02-22T12:03:13.668Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68119.230120068,
+          "exit": 68194.59339383944,
+          "pnl": "0.11%",
+          "dollarPnl": "2.21",
+          "capital": "10007.11"
+        },
+        {
+          "time": "2026-02-22T13:02:40.756Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67931.58",
+          "qty": "0.029462",
+          "size": "2001.42"
+        },
+        {
+          "time": "2026-02-22T14:02:29.467Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67931.58019160847,
+          "exit": 67631.9324739407,
+          "pnl": "0.44%",
+          "dollarPnl": "8.83",
+          "capital": "10015.94"
+        },
+        {
+          "time": "2026-02-22T15:02:41.726Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67417.69",
+          "qty": "0.029713",
+          "size": "2003.19"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 67417.69362212557,
+          "exit": 66754.4877270225,
+          "pnl": "-0.98%",
+          "dollarPnl": "-19.71",
+          "capital": "9996.23"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66754.49",
+          "qty": "0.029949",
+          "size": "1999.25"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 66754.4877270225,
+          "exit": 64435.12705551635,
+          "pnl": "-3.47%",
+          "dollarPnl": "-69.46",
+          "capital": "9926.77"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64435.13",
+          "qty": "0.030812",
+          "size": "1985.35"
+        },
+        {
+          "time": "2026-02-23T07:03:56.446Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "LONG",
+          "entry": 64435.12705551635,
+          "exit": 65752.54244262996,
+          "pnl": "2.04%",
+          "dollarPnl": "40.59",
+          "capital": "9967.36"
+        },
+        {
+          "time": "2026-02-23T10:02:14.214Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66381.48",
+          "qty": "0.030031",
+          "size": "1993.47"
+        },
+        {
+          "time": "2026-02-23T11:03:04.905Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 66381.48055124872,
+          "exit": 66317.29222461591,
+          "pnl": "-0.10%",
+          "dollarPnl": "-1.93",
+          "capital": "9965.43"
+        },
+        {
+          "time": "2026-02-23T16:03:22.390Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65646.16",
+          "qty": "0.030361",
+          "size": "1993.09"
+        },
+        {
+          "time": "2026-02-23T17:03:56.043Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 65646.15558685549,
+          "exit": 65381.72366003015,
+          "pnl": "0.40%",
+          "dollarPnl": "8.03",
+          "capital": "9973.46"
+        },
+        {
+          "time": "2026-02-23T18:02:56.115Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64750.32",
+          "qty": "0.030806",
+          "size": "1994.69"
+        },
+        {
+          "time": "2026-02-24T04:02:33.196Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 64750.319959430264,
+          "exit": 63559.99285358071,
+          "pnl": "-1.84%",
+          "dollarPnl": "-36.67",
+          "capital": "9936.79"
+        },
+        {
+          "time": "2026-02-24T04:02:33.196Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63559.99",
+          "qty": "0.031267",
+          "size": "1987.36"
+        },
+        {
+          "time": "2026-02-24T16:01:59.734Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63559.99285358071,
+          "exit": 63963.04834579783,
+          "pnl": "0.63%",
+          "dollarPnl": "12.60",
+          "capital": "9949.40"
+        },
+        {
+          "time": "2026-02-24T16:01:59.734Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63963.05",
+          "qty": "0.031110",
+          "size": "1989.88"
+        },
+        {
+          "time": "2026-02-24T17:03:41.260Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63963.04834579783,
+          "exit": 64253.8473670592,
+          "pnl": "0.45%",
+          "dollarPnl": "9.05",
+          "capital": "9958.44"
+        },
+        {
+          "time": "2026-02-24T19:02:10.148Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "64426.95",
+          "qty": "0.030914",
+          "size": "1991.69"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 64426.94609155057,
+          "exit": 65942.41944954704,
+          "pnl": "-2.35%",
+          "dollarPnl": "-46.85",
+          "capital": "9911.59"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65942.42",
+          "qty": "0.030061",
+          "size": "1982.32"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 65942.41944954704,
+          "exit": 66951.8483170153,
+          "pnl": "-1.53%",
+          "dollarPnl": "-30.34",
+          "capital": "9881.25"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66951.85",
+          "qty": "0.029517",
+          "size": "1976.25"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 66951.8483170153,
+          "exit": 68273.92644509776,
+          "pnl": "-1.97%",
+          "dollarPnl": "-39.02",
+          "capital": "9842.22"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68273.93",
+          "qty": "0.028832",
+          "size": "1968.44"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 68273.92644509776,
+          "exit": 69340.35897252934,
+          "pnl": "-1.56%",
+          "dollarPnl": "-30.75",
+          "capital": "9811.48"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "69340.36",
+          "qty": "0.028299",
+          "size": "1962.30"
+        },
+        {
+          "time": "2026-02-26T05:00:24.028Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 69340.35897252934,
+          "exit": 68588.06560827991,
+          "pnl": "1.08%",
+          "dollarPnl": "21.29",
+          "capital": "9832.77"
+        },
+        {
+          "time": "2026-02-26T05:00:24.028Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68588.07",
+          "qty": "0.028672",
+          "size": "1966.55"
+        },
+        {
+          "time": "2026-02-26T06:02:27.972Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68588.06560827991,
+          "exit": 68433.73102263549,
+          "pnl": "-0.23%",
+          "dollarPnl": "-4.43",
+          "capital": "9828.34"
+        },
+        {
+          "time": "2026-02-26T07:02:50.879Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68178.63",
+          "qty": "0.028831",
+          "size": "1965.67"
+        },
+        {
+          "time": "2026-02-26T08:02:25.249Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68178.6307566451,
+          "exit": 67849.39051310069,
+          "pnl": "0.48%",
+          "dollarPnl": "9.49",
+          "capital": "9837.83"
+        },
+        {
+          "time": "2026-02-26T10:03:11.397Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68571.60",
+          "qty": "0.028694",
+          "size": "1967.57"
+        },
+        {
+          "time": "2026-02-26T12:00:19.411Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 68571.59879322391,
+          "exit": 68033.5795724743,
+          "pnl": "-0.78%",
+          "dollarPnl": "-15.44",
+          "capital": "9822.40"
+        },
+        {
+          "time": "2026-02-26T12:00:19.411Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68033.58",
+          "qty": "0.028875",
+          "size": "1964.48"
+        },
+        {
+          "time": "2026-02-26T14:00:56.908Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68033.5795724743,
+          "exit": 67911.73073937466,
+          "pnl": "0.18%",
+          "dollarPnl": "3.52",
+          "capital": "9825.92"
+        },
+        {
+          "time": "2026-02-26T17:03:17.215Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66641.59",
+          "qty": "0.029489",
+          "size": "1965.18"
+        },
+        {
+          "time": "2026-02-27T01:04:10.117Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 66641.5855103991,
+          "exit": 67222.78947317986,
+          "pnl": "0.87%",
+          "dollarPnl": "17.14",
+          "capital": "9843.05"
+        },
+        {
+          "time": "2026-02-27T01:04:10.117Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67222.79",
+          "qty": "0.029285",
+          "size": "1968.61"
+        },
+        {
+          "time": "2026-02-27T03:01:04.048Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67222.78947317986,
+          "exit": 67330.59246292546,
+          "pnl": "-0.16%",
+          "dollarPnl": "-3.16",
+          "capital": "9839.90"
+        },
+        {
+          "time": "2026-02-27T04:03:17.716Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67617.94",
+          "qty": "0.029104",
+          "size": "1967.98"
+        },
+        {
+          "time": "2026-02-27T05:02:39.543Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67617.93798877213,
+          "exit": 67736.13847728852,
+          "pnl": "0.17%",
+          "dollarPnl": "3.44",
+          "capital": "9843.34"
+        },
+        {
+          "time": "2026-02-27T10:03:48.337Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67368.87",
+          "qty": "0.029222",
+          "size": "1968.67"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67368.86769274919,
+          "exit": 66656.43764823875,
+          "pnl": "1.06%",
+          "dollarPnl": "20.82",
+          "capital": "9864.16"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66656.44",
+          "qty": "0.029597",
+          "size": "1972.83"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "END",
+          "side": "LONG",
+          "entry": 66656.43764823875,
+          "exit": 66656.43764823875,
+          "pnl": "0.00%",
+          "dollarPnl": "0.00",
+          "capital": "9864.16"
+        }
+      ]
+    },
+    {
+      "name": "Scalper_3_8_wide",
+      "closedCount": 33,
+      "totalReturn": "-0.94%",
+      "winRate": "45.5%",
+      "finalValue": 9905.81,
+      "params": {
+        "name": "Scalper_3_8_wide",
+        "emaFast": 3,
+        "emaSlow": 8,
+        "rsiPeriod": 6,
+        "rsiBuy": 50,
+        "rsiSell": 50,
+        "stopLoss": -1,
+        "takeProfit": 1.5
+      },
+      "trades": [
+        {
+          "time": "2026-02-21T04:02:45.685Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67636.10",
+          "qty": "0.029570",
+          "size": "2000.00"
+        },
+        {
+          "time": "2026-02-21T05:02:06.973Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67636.09802439428,
+          "exit": 67795.1935276166,
+          "pnl": "-0.24%",
+          "dollarPnl": "-4.70",
+          "capital": "9995.30"
+        },
+        {
+          "time": "2026-02-21T09:02:18.042Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68033.46",
+          "qty": "0.029383",
+          "size": "1999.06"
+        },
+        {
+          "time": "2026-02-21T10:02:32.943Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68033.45506604825,
+          "exit": 68134.27481021718,
+          "pnl": "0.15%",
+          "dollarPnl": "2.96",
+          "capital": "9998.26"
+        },
+        {
+          "time": "2026-02-21T15:01:55.506Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68447.85",
+          "qty": "0.029214",
+          "size": "1999.65"
+        },
+        {
+          "time": "2026-02-21T21:03:16.046Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68447.8539525863,
+          "exit": 68284.76941071317,
+          "pnl": "0.24%",
+          "dollarPnl": "4.76",
+          "capital": "10003.02"
+        },
+        {
+          "time": "2026-02-21T23:03:25.336Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67951.16",
+          "qty": "0.029442",
+          "size": "2000.60"
+        },
+        {
+          "time": "2026-02-22T00:02:08.172Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67951.15591282771,
+          "exit": 67978.79019389286,
+          "pnl": "-0.04%",
+          "dollarPnl": "-0.81",
+          "capital": "10002.21"
+        },
+        {
+          "time": "2026-02-22T11:02:08.739Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68119.23",
+          "qty": "0.029367",
+          "size": "2000.44"
+        },
+        {
+          "time": "2026-02-22T12:03:13.668Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68119.230120068,
+          "exit": 68194.59339383944,
+          "pnl": "0.11%",
+          "dollarPnl": "2.21",
+          "capital": "10004.42"
+        },
+        {
+          "time": "2026-02-22T13:02:40.756Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67931.58",
+          "qty": "0.029454",
+          "size": "2000.88"
+        },
+        {
+          "time": "2026-02-22T14:02:29.467Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67931.58019160847,
+          "exit": 67631.9324739407,
+          "pnl": "0.44%",
+          "dollarPnl": "8.83",
+          "capital": "10013.25"
+        },
+        {
+          "time": "2026-02-22T15:02:41.726Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67417.69",
+          "qty": "0.029705",
+          "size": "2002.65"
+        },
+        {
+          "time": "2026-02-22T23:02:40.889Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67417.69362212557,
+          "exit": 67654.03558297858,
+          "pnl": "0.35%",
+          "dollarPnl": "7.02",
+          "capital": "10020.27"
+        },
+        {
+          "time": "2026-02-22T23:02:40.889Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67654.04",
+          "qty": "0.029622",
+          "size": "2004.05"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 67654.03558297858,
+          "exit": 66754.4877270225,
+          "pnl": "-1.33%",
+          "dollarPnl": "-26.65",
+          "capital": "9993.62"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66754.49",
+          "qty": "0.029941",
+          "size": "1998.72"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 66754.4877270225,
+          "exit": 64435.12705551635,
+          "pnl": "-3.47%",
+          "dollarPnl": "-69.44",
+          "capital": "9924.18"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64435.13",
+          "qty": "0.030804",
+          "size": "1984.84"
+        },
+        {
+          "time": "2026-02-23T07:03:56.446Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "LONG",
+          "entry": 64435.12705551635,
+          "exit": 65752.54244262996,
+          "pnl": "2.04%",
+          "dollarPnl": "40.58",
+          "capital": "9964.76"
+        },
+        {
+          "time": "2026-02-23T10:02:14.214Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66381.48",
+          "qty": "0.030023",
+          "size": "1992.95"
+        },
+        {
+          "time": "2026-02-23T11:03:04.905Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 66381.48055124872,
+          "exit": 66317.29222461591,
+          "pnl": "-0.10%",
+          "dollarPnl": "-1.93",
+          "capital": "9962.83"
+        },
+        {
+          "time": "2026-02-23T16:03:22.390Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65646.16",
+          "qty": "0.030353",
+          "size": "1992.57"
+        },
+        {
+          "time": "2026-02-23T17:03:56.043Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 65646.15558685549,
+          "exit": 65381.72366003015,
+          "pnl": "0.40%",
+          "dollarPnl": "8.03",
+          "capital": "9970.86"
+        },
+        {
+          "time": "2026-02-23T18:02:56.115Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64750.32",
+          "qty": "0.030798",
+          "size": "1994.17"
+        },
+        {
+          "time": "2026-02-24T03:02:51.785Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 64750.319959430264,
+          "exit": 64066.17992962856,
+          "pnl": "-1.06%",
+          "dollarPnl": "-21.07",
+          "capital": "9949.79"
+        },
+        {
+          "time": "2026-02-24T04:02:33.196Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63559.99",
+          "qty": "0.031308",
+          "size": "1989.96"
+        },
+        {
+          "time": "2026-02-24T14:02:46.857Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 63559.99285358071,
+          "exit": 62905.750100773046,
+          "pnl": "-1.03%",
+          "dollarPnl": "-20.48",
+          "capital": "9929.30"
+        },
+        {
+          "time": "2026-02-24T14:02:46.857Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "62905.75",
+          "qty": "0.031569",
+          "size": "1985.86"
+        },
+        {
+          "time": "2026-02-24T15:02:30.514Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 62905.750100773046,
+          "exit": 63446.927824582344,
+          "pnl": "0.86%",
+          "dollarPnl": "17.08",
+          "capital": "9946.39"
+        },
+        {
+          "time": "2026-02-24T16:01:59.734Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63963.05",
+          "qty": "0.031100",
+          "size": "1989.28"
+        },
+        {
+          "time": "2026-02-24T17:03:41.260Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63963.04834579783,
+          "exit": 64253.8473670592,
+          "pnl": "0.45%",
+          "dollarPnl": "9.04",
+          "capital": "9955.43"
+        },
+        {
+          "time": "2026-02-24T19:02:10.148Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "64426.95",
+          "qty": "0.030905",
+          "size": "1991.09"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 64426.94609155057,
+          "exit": 65942.41944954704,
+          "pnl": "-2.35%",
+          "dollarPnl": "-46.84",
+          "capital": "9908.60"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65942.42",
+          "qty": "0.030052",
+          "size": "1981.72"
+        },
+        {
+          "time": "2026-02-25T06:02:09.130Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "SHORT",
+          "entry": 65942.41944954704,
+          "exit": 64880.50598865606,
+          "pnl": "1.61%",
+          "dollarPnl": "31.91",
+          "capital": "9940.51"
+        },
+        {
+          "time": "2026-02-25T13:03:10.986Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66060.99",
+          "qty": "0.030095",
+          "size": "1988.10"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 66060.99245398513,
+          "exit": 66951.8483170153,
+          "pnl": "-1.35%",
+          "dollarPnl": "-26.81",
+          "capital": "9913.70"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66951.85",
+          "qty": "0.029614",
+          "size": "1982.74"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 66951.8483170153,
+          "exit": 68273.92644509776,
+          "pnl": "-1.97%",
+          "dollarPnl": "-39.15",
+          "capital": "9874.55"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68273.93",
+          "qty": "0.028926",
+          "size": "1974.91"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 68273.92644509776,
+          "exit": 69340.35897252934,
+          "pnl": "-1.56%",
+          "dollarPnl": "-30.85",
+          "capital": "9843.70"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "69340.36",
+          "qty": "0.028392",
+          "size": "1968.74"
+        },
+        {
+          "time": "2026-02-26T00:03:22.991Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "SHORT",
+          "entry": 69340.35897252934,
+          "exit": 67954.59317212048,
+          "pnl": "2.00%",
+          "dollarPnl": "39.35",
+          "capital": "9883.04"
+        },
+        {
+          "time": "2026-02-26T03:02:52.735Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68268.59",
+          "qty": "0.028953",
+          "size": "1976.61"
+        },
+        {
+          "time": "2026-02-26T05:00:24.028Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 68268.5928309609,
+          "exit": 68588.06560827991,
+          "pnl": "-0.47%",
+          "dollarPnl": "-9.25",
+          "capital": "9873.79"
+        },
+        {
+          "time": "2026-02-26T05:00:24.028Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68588.07",
+          "qty": "0.028792",
+          "size": "1974.76"
+        },
+        {
+          "time": "2026-02-26T06:02:27.972Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68588.06560827991,
+          "exit": 68433.73102263549,
+          "pnl": "-0.23%",
+          "dollarPnl": "-4.44",
+          "capital": "9869.35"
+        },
+        {
+          "time": "2026-02-26T07:02:50.879Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68178.63",
+          "qty": "0.028951",
+          "size": "1973.87"
+        },
+        {
+          "time": "2026-02-26T08:02:25.249Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68178.6307566451,
+          "exit": 67849.39051310069,
+          "pnl": "0.48%",
+          "dollarPnl": "9.53",
+          "capital": "9878.88"
+        },
+        {
+          "time": "2026-02-26T10:03:11.397Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68571.60",
+          "qty": "0.028813",
+          "size": "1975.78"
+        },
+        {
+          "time": "2026-02-26T11:02:01.784Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68571.59879322391,
+          "exit": 68299.30055745928,
+          "pnl": "-0.40%",
+          "dollarPnl": "-7.85",
+          "capital": "9871.04"
+        },
+        {
+          "time": "2026-02-26T12:00:19.411Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68033.58",
+          "qty": "0.029018",
+          "size": "1974.21"
+        },
+        {
+          "time": "2026-02-26T13:02:36.758Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68033.5795724743,
+          "exit": 68170.72135753337,
+          "pnl": "-0.20%",
+          "dollarPnl": "-3.98",
+          "capital": "9867.06"
+        },
+        {
+          "time": "2026-02-26T17:03:17.215Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66641.59",
+          "qty": "0.029612",
+          "size": "1973.41"
+        },
+        {
+          "time": "2026-02-26T20:03:07.535Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 66641.5855103991,
+          "exit": 67584.87840019423,
+          "pnl": "1.42%",
+          "dollarPnl": "27.93",
+          "capital": "9894.99"
+        },
+        {
+          "time": "2026-02-26T23:03:03.518Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67559.78",
+          "qty": "0.029293",
+          "size": "1979.00"
+        },
+        {
+          "time": "2026-02-27T01:04:10.117Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 67559.77818097749,
+          "exit": 67222.78947317986,
+          "pnl": "-0.50%",
+          "dollarPnl": "-9.87",
+          "capital": "9885.12"
+        },
+        {
+          "time": "2026-02-27T01:04:10.117Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67222.79",
+          "qty": "0.029410",
+          "size": "1977.02"
+        },
+        {
+          "time": "2026-02-27T02:03:20.001Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67222.78947317986,
+          "exit": 67347.6530265583,
+          "pnl": "-0.19%",
+          "dollarPnl": "-3.67",
+          "capital": "9881.45"
+        },
+        {
+          "time": "2026-02-27T04:03:17.716Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67617.94",
+          "qty": "0.029227",
+          "size": "1976.29"
+        },
+        {
+          "time": "2026-02-27T05:02:39.543Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67617.93798877213,
+          "exit": 67736.13847728852,
+          "pnl": "0.17%",
+          "dollarPnl": "3.45",
+          "capital": "9884.90"
+        },
+        {
+          "time": "2026-02-27T10:03:48.337Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67368.87",
+          "qty": "0.029346",
+          "size": "1976.98"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67368.86769274919,
+          "exit": 66656.43764823875,
+          "pnl": "1.06%",
+          "dollarPnl": "20.91",
+          "capital": "9905.81"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66656.44",
+          "qty": "0.029722",
+          "size": "1981.16"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "END",
+          "side": "LONG",
+          "entry": 66656.43764823875,
+          "exit": 66656.43764823875,
+          "pnl": "0.00%",
+          "dollarPnl": "0.00",
+          "capital": "9905.81"
+        }
+      ]
+    },
+    {
+      "name": "Fast_5_13",
+      "closedCount": 17,
+      "totalReturn": "-1.26%",
+      "winRate": "35.3%",
+      "finalValue": 9874.17,
+      "params": {
+        "name": "Fast_5_13",
+        "emaFast": 5,
+        "emaSlow": 13,
+        "rsiPeriod": 8,
+        "rsiBuy": 45,
+        "rsiSell": 55,
+        "stopLoss": -2,
+        "takeProfit": 3
+      },
+      "trades": [
+        {
+          "time": "2026-02-21T23:03:25.336Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67951.16",
+          "qty": "0.029433",
+          "size": "2000.00"
+        },
+        {
+          "time": "2026-02-22T00:02:08.172Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67951.15591282771,
+          "exit": 67978.79019389286,
+          "pnl": "-0.04%",
+          "dollarPnl": "-0.81",
+          "capital": "9999.19"
+        },
+        {
+          "time": "2026-02-22T12:03:13.668Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68194.59",
+          "qty": "0.029325",
+          "size": "1999.84"
+        },
+        {
+          "time": "2026-02-22T13:02:40.756Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 68194.59339383944,
+          "exit": 67931.58019160847,
+          "pnl": "-0.39%",
+          "dollarPnl": "-7.71",
+          "capital": "9991.47"
+        },
+        {
+          "time": "2026-02-22T13:02:40.756Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67931.58",
+          "qty": "0.029416",
+          "size": "1998.29"
+        },
+        {
+          "time": "2026-02-22T14:02:29.467Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67931.58019160847,
+          "exit": 67631.9324739407,
+          "pnl": "0.44%",
+          "dollarPnl": "8.81",
+          "capital": "10000.29"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66754.49",
+          "qty": "0.029961",
+          "size": "2000.06"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 66754.4877270225,
+          "exit": 64435.12705551635,
+          "pnl": "-3.47%",
+          "dollarPnl": "-69.49",
+          "capital": "9930.80"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64435.13",
+          "qty": "0.030824",
+          "size": "1986.16"
+        },
+        {
+          "time": "2026-02-23T10:02:14.214Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "LONG",
+          "entry": 64435.12705551635,
+          "exit": 66381.48055124872,
+          "pnl": "3.02%",
+          "dollarPnl": "59.99",
+          "capital": "9990.79"
+        },
+        {
+          "time": "2026-02-23T13:02:24.548Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66275.64",
+          "qty": "0.030149",
+          "size": "1998.16"
+        },
+        {
+          "time": "2026-02-23T15:02:35.665Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 66275.63595867298,
+          "exit": 65914.2830987351,
+          "pnl": "-0.55%",
+          "dollarPnl": "-10.89",
+          "capital": "9979.90"
+        },
+        {
+          "time": "2026-02-23T15:02:35.665Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65914.28",
+          "qty": "0.030281",
+          "size": "1995.98"
+        },
+        {
+          "time": "2026-02-23T16:03:22.390Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 65914.2830987351,
+          "exit": 65646.15558685549,
+          "pnl": "0.41%",
+          "dollarPnl": "8.12",
+          "capital": "9988.02"
+        },
+        {
+          "time": "2026-02-23T19:03:21.655Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64632.91",
+          "qty": "0.030907",
+          "size": "1997.60"
+        },
+        {
+          "time": "2026-02-24T05:03:32.574Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 64632.91383942887,
+          "exit": 63327.54954418396,
+          "pnl": "-2.02%",
+          "dollarPnl": "-40.34",
+          "capital": "9947.67"
+        },
+        {
+          "time": "2026-02-24T05:03:32.574Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63327.55",
+          "qty": "0.031417",
+          "size": "1989.53"
+        },
+        {
+          "time": "2026-02-24T16:01:59.734Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63327.54954418396,
+          "exit": 63963.04834579783,
+          "pnl": "1.00%",
+          "dollarPnl": "19.97",
+          "capital": "9967.64"
+        },
+        {
+          "time": "2026-02-24T17:03:41.260Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64253.85",
+          "qty": "0.031026",
+          "size": "1993.53"
+        },
+        {
+          "time": "2026-02-24T18:02:31.983Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 64253.8473670592,
+          "exit": 64215.262528875006,
+          "pnl": "-0.06%",
+          "dollarPnl": "-1.20",
+          "capital": "9966.44"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65942.42",
+          "qty": "0.030228",
+          "size": "1993.29"
+        },
+        {
+          "time": "2026-02-25T16:02:57.383Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 65942.41944954704,
+          "exit": 67415.14686028346,
+          "pnl": "-2.23%",
+          "dollarPnl": "-44.52",
+          "capital": "9921.92"
+        },
+        {
+          "time": "2026-02-25T16:02:57.383Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67415.15",
+          "qty": "0.029435",
+          "size": "1984.38"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 67415.14686028346,
+          "exit": 69340.35897252934,
+          "pnl": "-2.86%",
+          "dollarPnl": "-56.67",
+          "capital": "9865.25"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "69340.36",
+          "qty": "0.028455",
+          "size": "1973.05"
+        },
+        {
+          "time": "2026-02-26T10:03:11.397Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 69340.35897252934,
+          "exit": 68571.59879322391,
+          "pnl": "1.11%",
+          "dollarPnl": "21.87",
+          "capital": "9887.13"
+        },
+        {
+          "time": "2026-02-26T10:03:11.397Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68571.60",
+          "qty": "0.028837",
+          "size": "1977.43"
+        },
+        {
+          "time": "2026-02-26T14:00:56.908Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 68571.59879322391,
+          "exit": 67911.73073937466,
+          "pnl": "-0.96%",
+          "dollarPnl": "-19.03",
+          "capital": "9868.10"
+        },
+        {
+          "time": "2026-02-26T14:00:56.908Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67911.73",
+          "qty": "0.029062",
+          "size": "1973.62"
+        },
+        {
+          "time": "2026-02-26T15:02:36.508Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67911.73073937466,
+          "exit": 67688.04676583402,
+          "pnl": "0.33%",
+          "dollarPnl": "6.50",
+          "capital": "9874.60"
+        },
+        {
+          "time": "2026-02-27T05:02:39.543Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67736.14",
+          "qty": "0.029156",
+          "size": "1974.92"
+        },
+        {
+          "time": "2026-02-27T06:03:34.069Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67736.13847728852,
+          "exit": 67721.51397522389,
+          "pnl": "-0.02%",
+          "dollarPnl": "-0.43",
+          "capital": "9874.17"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66656.44",
+          "qty": "0.029627",
+          "size": "1974.83"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "END",
+          "side": "SHORT",
+          "entry": 66656.43764823875,
+          "exit": 66656.43764823875,
+          "pnl": "0.00%",
+          "dollarPnl": "0.00",
+          "capital": "9874.17"
+        }
+      ]
+    },
+    {
+      "name": "Ultra_2_5",
+      "closedCount": 44,
+      "totalReturn": "0.15%",
+      "winRate": "56.8%",
+      "finalValue": 10015.04,
+      "params": {
+        "name": "Ultra_2_5",
+        "emaFast": 2,
+        "emaSlow": 5,
+        "rsiPeriod": 4,
+        "rsiBuy": 45,
+        "rsiSell": 55,
+        "stopLoss": -1,
+        "takeProfit": 1.5
+      },
+      "trades": [
+        {
+          "time": "2026-02-21T04:02:45.685Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67636.10",
+          "qty": "0.029570",
+          "size": "2000.00"
+        },
+        {
+          "time": "2026-02-21T07:00:41.289Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67636.09802439428,
+          "exit": 67771.15490900952,
+          "pnl": "-0.20%",
+          "dollarPnl": "-3.99",
+          "capital": "9996.01"
+        },
+        {
+          "time": "2026-02-21T08:02:31.186Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67835.58",
+          "qty": "0.029471",
+          "size": "1999.20"
+        },
+        {
+          "time": "2026-02-21T09:02:18.042Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67835.58161535914,
+          "exit": 68033.45506604825,
+          "pnl": "0.29%",
+          "dollarPnl": "5.83",
+          "capital": "10001.84"
+        },
+        {
+          "time": "2026-02-21T10:02:32.943Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68134.27",
+          "qty": "0.029359",
+          "size": "2000.37"
+        },
+        {
+          "time": "2026-02-21T21:03:16.046Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68134.27481021718,
+          "exit": 68284.76941071317,
+          "pnl": "-0.22%",
+          "dollarPnl": "-4.42",
+          "capital": "9997.42"
+        },
+        {
+          "time": "2026-02-21T21:03:16.046Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68284.77",
+          "qty": "0.029282",
+          "size": "1999.48"
+        },
+        {
+          "time": "2026-02-21T23:03:25.336Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68284.76941071317,
+          "exit": 67951.15591282771,
+          "pnl": "0.49%",
+          "dollarPnl": "9.77",
+          "capital": "10007.19"
+        },
+        {
+          "time": "2026-02-21T23:03:25.336Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67951.16",
+          "qty": "0.029454",
+          "size": "2001.44"
+        },
+        {
+          "time": "2026-02-22T08:03:39.719Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 67951.15591282771,
+          "exit": 67985.83510142777,
+          "pnl": "0.05%",
+          "dollarPnl": "1.02",
+          "capital": "10008.21"
+        },
+        {
+          "time": "2026-02-22T08:03:39.719Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67985.84",
+          "qty": "0.029442",
+          "size": "2001.64"
+        },
+        {
+          "time": "2026-02-22T09:02:02.518Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67985.83510142777,
+          "exit": 67950.31445098891,
+          "pnl": "0.05%",
+          "dollarPnl": "1.05",
+          "capital": "10009.26"
+        },
+        {
+          "time": "2026-02-22T10:02:35.532Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68039.37",
+          "qty": "0.029422",
+          "size": "2001.85"
+        },
+        {
+          "time": "2026-02-22T11:02:08.739Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68039.3698178956,
+          "exit": 68119.230120068,
+          "pnl": "0.12%",
+          "dollarPnl": "2.35",
+          "capital": "10011.61"
+        },
+        {
+          "time": "2026-02-22T12:03:13.668Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68194.59",
+          "qty": "0.029362",
+          "size": "2002.32"
+        },
+        {
+          "time": "2026-02-22T13:02:40.756Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68194.59339383944,
+          "exit": 67931.58019160847,
+          "pnl": "0.39%",
+          "dollarPnl": "7.72",
+          "capital": "10019.33"
+        },
+        {
+          "time": "2026-02-22T13:02:40.756Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67931.58",
+          "qty": "0.029498",
+          "size": "2003.87"
+        },
+        {
+          "time": "2026-02-22T14:02:29.467Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67931.58019160847,
+          "exit": 67631.9324739407,
+          "pnl": "0.44%",
+          "dollarPnl": "8.84",
+          "capital": "10028.17"
+        },
+        {
+          "time": "2026-02-22T14:02:29.467Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67631.93",
+          "qty": "0.029655",
+          "size": "2005.63"
+        },
+        {
+          "time": "2026-02-22T22:02:33.305Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67631.9324739407,
+          "exit": 67584.46138307691,
+          "pnl": "-0.07%",
+          "dollarPnl": "-1.41",
+          "capital": "10026.76"
+        },
+        {
+          "time": "2026-02-22T22:02:33.305Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67584.46",
+          "qty": "0.029672",
+          "size": "2005.35"
+        },
+        {
+          "time": "2026-02-22T23:02:40.889Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67584.46138307691,
+          "exit": 67654.03558297858,
+          "pnl": "0.10%",
+          "dollarPnl": "2.06",
+          "capital": "10028.82"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66754.49",
+          "qty": "0.030047",
+          "size": "2005.76"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 66754.4877270225,
+          "exit": 64435.12705551635,
+          "pnl": "-3.47%",
+          "dollarPnl": "-69.69",
+          "capital": "9959.13"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64435.13",
+          "qty": "0.030912",
+          "size": "1991.83"
+        },
+        {
+          "time": "2026-02-23T07:03:56.446Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "LONG",
+          "entry": 64435.12705551635,
+          "exit": 65752.54244262996,
+          "pnl": "2.04%",
+          "dollarPnl": "40.72",
+          "capital": "9999.86"
+        },
+        {
+          "time": "2026-02-23T07:03:56.446Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "65752.54",
+          "qty": "0.030417",
+          "size": "1999.97"
+        },
+        {
+          "time": "2026-02-23T08:02:03.814Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 65752.54244262996,
+          "exit": 65939.88775861052,
+          "pnl": "0.28%",
+          "dollarPnl": "5.70",
+          "capital": "10005.56"
+        },
+        {
+          "time": "2026-02-23T15:02:35.665Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65914.28",
+          "qty": "0.030359",
+          "size": "2001.11"
+        },
+        {
+          "time": "2026-02-23T16:03:22.390Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 65914.2830987351,
+          "exit": 65646.15558685549,
+          "pnl": "0.41%",
+          "dollarPnl": "8.14",
+          "capital": "10013.70"
+        },
+        {
+          "time": "2026-02-23T17:03:56.043Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "65381.72",
+          "qty": "0.030631",
+          "size": "2002.74"
+        },
+        {
+          "time": "2026-02-23T19:03:21.655Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 65381.72366003015,
+          "exit": 64632.91383942887,
+          "pnl": "-1.15%",
+          "dollarPnl": "-22.94",
+          "capital": "9990.76"
+        },
+        {
+          "time": "2026-02-23T19:03:21.655Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64632.91",
+          "qty": "0.030915",
+          "size": "1998.15"
+        },
+        {
+          "time": "2026-02-24T01:00:15.226Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 64632.91383942887,
+          "exit": 64941.5287413215,
+          "pnl": "0.48%",
+          "dollarPnl": "9.54",
+          "capital": "10000.30"
+        },
+        {
+          "time": "2026-02-24T01:00:15.226Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64941.53",
+          "qty": "0.030798",
+          "size": "2000.06"
+        },
+        {
+          "time": "2026-02-24T02:03:11.867Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 64941.5287413215,
+          "exit": 64135.616801814576,
+          "pnl": "-1.24%",
+          "dollarPnl": "-24.82",
+          "capital": "9975.48"
+        },
+        {
+          "time": "2026-02-24T02:03:11.867Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "64135.62",
+          "qty": "0.031107",
+          "size": "1995.10"
+        },
+        {
+          "time": "2026-02-24T03:02:51.785Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 64135.616801814576,
+          "exit": 64066.17992962856,
+          "pnl": "0.11%",
+          "dollarPnl": "2.16",
+          "capital": "9977.64"
+        },
+        {
+          "time": "2026-02-24T03:02:51.785Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64066.18",
+          "qty": "0.031148",
+          "size": "1995.53"
+        },
+        {
+          "time": "2026-02-24T05:03:32.574Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 64066.17992962856,
+          "exit": 63327.54954418396,
+          "pnl": "-1.15%",
+          "dollarPnl": "-23.01",
+          "capital": "9954.63"
+        },
+        {
+          "time": "2026-02-24T05:03:32.574Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63327.55",
+          "qty": "0.031439",
+          "size": "1990.93"
+        },
+        {
+          "time": "2026-02-24T15:02:30.514Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63327.54954418396,
+          "exit": 63446.927824582344,
+          "pnl": "0.19%",
+          "dollarPnl": "3.75",
+          "capital": "9958.39"
+        },
+        {
+          "time": "2026-02-24T15:02:30.514Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63446.93",
+          "qty": "0.031391",
+          "size": "1991.68"
+        },
+        {
+          "time": "2026-02-24T16:01:59.734Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63446.927824582344,
+          "exit": 63963.04834579783,
+          "pnl": "0.81%",
+          "dollarPnl": "16.20",
+          "capital": "9974.59"
+        },
+        {
+          "time": "2026-02-24T16:01:59.734Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "63963.05",
+          "qty": "0.031189",
+          "size": "1994.92"
+        },
+        {
+          "time": "2026-02-24T22:02:54.209Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 63963.04834579783,
+          "exit": 64045.70828857544,
+          "pnl": "-0.13%",
+          "dollarPnl": "-2.58",
+          "capital": "9972.01"
+        },
+        {
+          "time": "2026-02-24T22:02:54.209Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "64045.71",
+          "qty": "0.031140",
+          "size": "1994.40"
+        },
+        {
+          "time": "2026-02-25T01:01:39.044Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 64045.70828857544,
+          "exit": 64233.58561002521,
+          "pnl": "-0.29%",
+          "dollarPnl": "-5.85",
+          "capital": "9966.16"
+        },
+        {
+          "time": "2026-02-25T01:01:39.044Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64233.59",
+          "qty": "0.031031",
+          "size": "1993.23"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "LONG",
+          "entry": 64233.58561002521,
+          "exit": 65942.41944954704,
+          "pnl": "2.66%",
+          "dollarPnl": "53.03",
+          "capital": "10019.19"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65942.42",
+          "qty": "0.030388",
+          "size": "2003.84"
+        },
+        {
+          "time": "2026-02-25T06:02:09.130Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "SHORT",
+          "entry": 65942.41944954704,
+          "exit": 64880.50598865606,
+          "pnl": "1.61%",
+          "dollarPnl": "32.27",
+          "capital": "10051.46"
+        },
+        {
+          "time": "2026-02-25T06:02:09.130Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "64880.51",
+          "qty": "0.030985",
+          "size": "2010.29"
+        },
+        {
+          "time": "2026-02-25T07:02:11.206Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 64880.50598865606,
+          "exit": 64881.88467477487,
+          "pnl": "-0.00%",
+          "dollarPnl": "-0.04",
+          "capital": "10051.41"
+        },
+        {
+          "time": "2026-02-25T09:02:35.156Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "65506.83",
+          "qty": "0.030688",
+          "size": "2010.28"
+        },
+        {
+          "time": "2026-02-25T10:02:35.632Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 65506.82624135998,
+          "exit": 65544.01337155416,
+          "pnl": "0.06%",
+          "dollarPnl": "1.14",
+          "capital": "10052.55"
+        },
+        {
+          "time": "2026-02-25T13:03:10.986Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66060.99",
+          "qty": "0.030434",
+          "size": "2010.51"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 66060.99245398513,
+          "exit": 66951.8483170153,
+          "pnl": "-1.35%",
+          "dollarPnl": "-27.11",
+          "capital": "10025.44"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66951.85",
+          "qty": "0.029948",
+          "size": "2005.09"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 66951.8483170153,
+          "exit": 68273.92644509776,
+          "pnl": "-1.97%",
+          "dollarPnl": "-39.59",
+          "capital": "9985.85"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68273.93",
+          "qty": "0.029252",
+          "size": "1997.17"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 68273.92644509776,
+          "exit": 69340.35897252934,
+          "pnl": "-1.56%",
+          "dollarPnl": "-31.20",
+          "capital": "9954.65"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "69340.36",
+          "qty": "0.028712",
+          "size": "1990.93"
+        },
+        {
+          "time": "2026-02-26T00:03:22.991Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "SHORT",
+          "entry": 69340.35897252934,
+          "exit": 67954.59317212048,
+          "pnl": "2.00%",
+          "dollarPnl": "39.79",
+          "capital": "9994.44"
+        },
+        {
+          "time": "2026-02-26T05:00:24.028Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68588.07",
+          "qty": "0.029143",
+          "size": "1998.89"
+        },
+        {
+          "time": "2026-02-26T07:02:50.879Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 68588.06560827991,
+          "exit": 68178.6307566451,
+          "pnl": "-0.60%",
+          "dollarPnl": "-11.93",
+          "capital": "9982.51"
+        },
+        {
+          "time": "2026-02-26T07:02:50.879Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68178.63",
+          "qty": "0.029283",
+          "size": "1996.50"
+        },
+        {
+          "time": "2026-02-26T08:02:25.249Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68178.6307566451,
+          "exit": 67849.39051310069,
+          "pnl": "0.48%",
+          "dollarPnl": "9.64",
+          "capital": "9992.15"
+        },
+        {
+          "time": "2026-02-26T10:03:11.397Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68571.60",
+          "qty": "0.029144",
+          "size": "1998.43"
+        },
+        {
+          "time": "2026-02-26T12:00:19.411Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 68571.59879322391,
+          "exit": 68033.5795724743,
+          "pnl": "-0.78%",
+          "dollarPnl": "-15.68",
+          "capital": "9976.47"
+        },
+        {
+          "time": "2026-02-26T12:00:19.411Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68033.58",
+          "qty": "0.029328",
+          "size": "1995.29"
+        },
+        {
+          "time": "2026-02-26T14:00:56.908Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68033.5795724743,
+          "exit": 67911.73073937466,
+          "pnl": "0.18%",
+          "dollarPnl": "3.57",
+          "capital": "9980.04"
+        },
+        {
+          "time": "2026-02-26T16:02:49.547Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67386.86",
+          "qty": "0.029620",
+          "size": "1996.01"
+        },
+        {
+          "time": "2026-02-26T17:03:17.215Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 67386.85704262121,
+          "exit": 66641.5855103991,
+          "pnl": "-1.11%",
+          "dollarPnl": "-22.08",
+          "capital": "9957.97"
+        },
+        {
+          "time": "2026-02-26T17:03:17.215Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66641.59",
+          "qty": "0.029885",
+          "size": "1991.59"
+        },
+        {
+          "time": "2026-02-26T20:03:07.535Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 66641.5855103991,
+          "exit": 67584.87840019423,
+          "pnl": "1.42%",
+          "dollarPnl": "28.19",
+          "capital": "9986.16"
+        },
+        {
+          "time": "2026-02-26T20:03:07.535Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67584.88",
+          "qty": "0.029551",
+          "size": "1997.23"
+        },
+        {
+          "time": "2026-02-26T23:03:03.518Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67584.87840019423,
+          "exit": 67559.77818097749,
+          "pnl": "-0.04%",
+          "dollarPnl": "-0.74",
+          "capital": "9985.42"
+        },
+        {
+          "time": "2026-02-27T01:04:10.117Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67222.79",
+          "qty": "0.029708",
+          "size": "1997.08"
+        },
+        {
+          "time": "2026-02-27T04:03:17.716Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 67222.78947317986,
+          "exit": 67617.93798877213,
+          "pnl": "-0.59%",
+          "dollarPnl": "-11.74",
+          "capital": "9973.68"
+        },
+        {
+          "time": "2026-02-27T04:03:17.716Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67617.94",
+          "qty": "0.029500",
+          "size": "1994.74"
+        },
+        {
+          "time": "2026-02-27T05:02:39.543Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67617.93798877213,
+          "exit": 67736.13847728852,
+          "pnl": "0.17%",
+          "dollarPnl": "3.49",
+          "capital": "9977.16"
+        },
+        {
+          "time": "2026-02-27T09:03:31.409Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67938.64",
+          "qty": "0.029371",
+          "size": "1995.43"
+        },
+        {
+          "time": "2026-02-27T10:03:48.337Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67938.63876392743,
+          "exit": 67368.86769274919,
+          "pnl": "0.84%",
+          "dollarPnl": "16.73",
+          "capital": "9993.90"
+        },
+        {
+          "time": "2026-02-27T10:03:48.337Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67368.87",
+          "qty": "0.029669",
+          "size": "1998.78"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67368.86769274919,
+          "exit": 66656.43764823875,
+          "pnl": "1.06%",
+          "dollarPnl": "21.14",
+          "capital": "10015.04"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66656.44",
+          "qty": "0.030050",
+          "size": "2003.01"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "END",
+          "side": "LONG",
+          "entry": 66656.43764823875,
+          "exit": 66656.43764823875,
+          "pnl": "0.00%",
+          "dollarPnl": "0.00",
+          "capital": "10015.04"
+        }
+      ]
+    },
+    {
+      "name": "Aggressive_3_7",
+      "closedCount": 35,
+      "totalReturn": "-0.87%",
+      "winRate": "54.3%",
+      "finalValue": 9913.48,
+      "params": {
+        "name": "Aggressive_3_7",
+        "emaFast": 3,
+        "emaSlow": 7,
+        "rsiPeriod": 5,
+        "rsiBuy": 48,
+        "rsiSell": 52,
+        "stopLoss": -1.2,
+        "takeProfit": 1.8
+      },
+      "trades": [
+        {
+          "time": "2026-02-21T04:02:45.685Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67636.10",
+          "qty": "0.029570",
+          "size": "2000.00"
+        },
+        {
+          "time": "2026-02-21T05:02:06.973Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67636.09802439428,
+          "exit": 67795.1935276166,
+          "pnl": "-0.24%",
+          "dollarPnl": "-4.70",
+          "capital": "9995.30"
+        },
+        {
+          "time": "2026-02-21T09:02:18.042Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68033.46",
+          "qty": "0.029383",
+          "size": "1999.06"
+        },
+        {
+          "time": "2026-02-21T10:02:32.943Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68033.45506604825,
+          "exit": 68134.27481021718,
+          "pnl": "0.15%",
+          "dollarPnl": "2.96",
+          "capital": "9998.26"
+        },
+        {
+          "time": "2026-02-21T15:01:55.506Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68447.85",
+          "qty": "0.029214",
+          "size": "1999.65"
+        },
+        {
+          "time": "2026-02-21T21:03:16.046Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68447.8539525863,
+          "exit": 68284.76941071317,
+          "pnl": "0.24%",
+          "dollarPnl": "4.76",
+          "capital": "10003.02"
+        },
+        {
+          "time": "2026-02-21T22:02:41.418Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68352.68",
+          "qty": "0.029269",
+          "size": "2000.60"
+        },
+        {
+          "time": "2026-02-21T23:03:25.336Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68352.67780821405,
+          "exit": 67951.15591282771,
+          "pnl": "0.59%",
+          "dollarPnl": "11.75",
+          "capital": "10014.77"
+        },
+        {
+          "time": "2026-02-22T10:02:35.532Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68039.37",
+          "qty": "0.029438",
+          "size": "2002.95"
+        },
+        {
+          "time": "2026-02-22T11:02:08.739Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68039.3698178956,
+          "exit": 68119.230120068,
+          "pnl": "0.12%",
+          "dollarPnl": "2.35",
+          "capital": "10017.13"
+        },
+        {
+          "time": "2026-02-22T13:02:40.756Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67931.58",
+          "qty": "0.029492",
+          "size": "2003.43"
+        },
+        {
+          "time": "2026-02-22T14:02:29.467Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67931.58019160847,
+          "exit": 67631.9324739407,
+          "pnl": "0.44%",
+          "dollarPnl": "8.84",
+          "capital": "10025.96"
+        },
+        {
+          "time": "2026-02-22T14:02:29.467Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67631.93",
+          "qty": "0.029649",
+          "size": "2005.19"
+        },
+        {
+          "time": "2026-02-22T22:02:33.305Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67631.9324739407,
+          "exit": 67584.46138307691,
+          "pnl": "-0.07%",
+          "dollarPnl": "-1.41",
+          "capital": "10024.56"
+        },
+        {
+          "time": "2026-02-22T23:02:40.889Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67654.04",
+          "qty": "0.029635",
+          "size": "2004.91"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 67654.03558297858,
+          "exit": 66754.4877270225,
+          "pnl": "-1.33%",
+          "dollarPnl": "-26.66",
+          "capital": "9997.90"
+        },
+        {
+          "time": "2026-02-23T01:02:25.581Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66754.49",
+          "qty": "0.029954",
+          "size": "1999.58"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "LONG",
+          "entry": 66754.4877270225,
+          "exit": 64435.12705551635,
+          "pnl": "-3.47%",
+          "dollarPnl": "-69.47",
+          "capital": "9928.42"
+        },
+        {
+          "time": "2026-02-23T02:03:22.673Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64435.13",
+          "qty": "0.030817",
+          "size": "1985.68"
+        },
+        {
+          "time": "2026-02-23T07:03:56.446Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "LONG",
+          "entry": 64435.12705551635,
+          "exit": 65752.54244262996,
+          "pnl": "2.04%",
+          "dollarPnl": "40.60",
+          "capital": "9969.02"
+        },
+        {
+          "time": "2026-02-23T08:02:03.814Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "65939.89",
+          "qty": "0.030237",
+          "size": "1993.80"
+        },
+        {
+          "time": "2026-02-23T10:02:14.214Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 65939.88775861052,
+          "exit": 66381.48055124872,
+          "pnl": "0.67%",
+          "dollarPnl": "13.35",
+          "capital": "9982.37"
+        },
+        {
+          "time": "2026-02-23T16:03:22.390Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65646.16",
+          "qty": "0.030413",
+          "size": "1996.47"
+        },
+        {
+          "time": "2026-02-23T17:03:56.043Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 65646.15558685549,
+          "exit": 65381.72366003015,
+          "pnl": "0.40%",
+          "dollarPnl": "8.04",
+          "capital": "9990.42"
+        },
+        {
+          "time": "2026-02-23T18:02:56.115Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "64750.32",
+          "qty": "0.030858",
+          "size": "1998.08"
+        },
+        {
+          "time": "2026-02-24T01:00:15.226Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 64750.319959430264,
+          "exit": 64941.5287413215,
+          "pnl": "0.30%",
+          "dollarPnl": "5.90",
+          "capital": "9996.32"
+        },
+        {
+          "time": "2026-02-24T04:02:33.196Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63559.99",
+          "qty": "0.031455",
+          "size": "1999.26"
+        },
+        {
+          "time": "2026-02-24T15:02:30.514Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63559.99285358071,
+          "exit": 63446.927824582344,
+          "pnl": "-0.18%",
+          "dollarPnl": "-3.56",
+          "capital": "9992.76"
+        },
+        {
+          "time": "2026-02-24T16:01:59.734Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "63963.05",
+          "qty": "0.031245",
+          "size": "1998.55"
+        },
+        {
+          "time": "2026-02-24T17:03:41.260Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 63963.04834579783,
+          "exit": 64253.8473670592,
+          "pnl": "0.45%",
+          "dollarPnl": "9.09",
+          "capital": "10001.85"
+        },
+        {
+          "time": "2026-02-24T17:03:41.260Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "64253.85",
+          "qty": "0.031132",
+          "size": "2000.37"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 64253.8473670592,
+          "exit": 65942.41944954704,
+          "pnl": "-2.63%",
+          "dollarPnl": "-52.57",
+          "capital": "9949.28"
+        },
+        {
+          "time": "2026-02-25T02:03:45.182Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "65942.42",
+          "qty": "0.030176",
+          "size": "1989.86"
+        },
+        {
+          "time": "2026-02-25T06:02:09.130Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 65942.41944954704,
+          "exit": 64880.50598865606,
+          "pnl": "1.61%",
+          "dollarPnl": "32.04",
+          "capital": "9981.32"
+        },
+        {
+          "time": "2026-02-25T07:02:11.206Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "64881.88",
+          "qty": "0.030768",
+          "size": "1996.26"
+        },
+        {
+          "time": "2026-02-25T09:02:35.156Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 64881.88467477487,
+          "exit": 65506.82624135998,
+          "pnl": "-0.96%",
+          "dollarPnl": "-19.23",
+          "capital": "9962.09"
+        },
+        {
+          "time": "2026-02-25T09:02:35.156Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "65506.83",
+          "qty": "0.030415",
+          "size": "1992.42"
+        },
+        {
+          "time": "2026-02-25T10:02:35.632Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 65506.82624135998,
+          "exit": 65544.01337155416,
+          "pnl": "0.06%",
+          "dollarPnl": "1.13",
+          "capital": "9963.22"
+        },
+        {
+          "time": "2026-02-25T13:03:10.986Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66060.99",
+          "qty": "0.030164",
+          "size": "1992.64"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 66060.99245398513,
+          "exit": 66951.8483170153,
+          "pnl": "-1.35%",
+          "dollarPnl": "-26.87",
+          "capital": "9936.35"
+        },
+        {
+          "time": "2026-02-25T15:03:01.279Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "66951.85",
+          "qty": "0.029682",
+          "size": "1987.27"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 66951.8483170153,
+          "exit": 68273.92644509776,
+          "pnl": "-1.97%",
+          "dollarPnl": "-39.24",
+          "capital": "9897.11"
+        },
+        {
+          "time": "2026-02-25T17:03:01.064Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68273.93",
+          "qty": "0.028992",
+          "size": "1979.42"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "CLOSE",
+          "reason": "STOP_LOSS",
+          "side": "SHORT",
+          "entry": 68273.92644509776,
+          "exit": 69340.35897252934,
+          "pnl": "-1.56%",
+          "dollarPnl": "-30.92",
+          "capital": "9866.19"
+        },
+        {
+          "time": "2026-02-25T19:03:46.810Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "69340.36",
+          "qty": "0.028457",
+          "size": "1973.24"
+        },
+        {
+          "time": "2026-02-26T00:03:22.991Z",
+          "action": "CLOSE",
+          "reason": "TAKE_PROFIT",
+          "side": "SHORT",
+          "entry": 69340.35897252934,
+          "exit": 67954.59317212048,
+          "pnl": "2.00%",
+          "dollarPnl": "39.44",
+          "capital": "9905.63"
+        },
+        {
+          "time": "2026-02-26T00:03:22.991Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67954.59",
+          "qty": "0.029154",
+          "size": "1981.13"
+        },
+        {
+          "time": "2026-02-26T05:00:24.028Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "SHORT",
+          "entry": 67954.59317212048,
+          "exit": 68588.06560827991,
+          "pnl": "-0.93%",
+          "dollarPnl": "-18.47",
+          "capital": "9887.16"
+        },
+        {
+          "time": "2026-02-26T05:00:24.028Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68588.07",
+          "qty": "0.028831",
+          "size": "1977.43"
+        },
+        {
+          "time": "2026-02-26T06:02:27.972Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 68588.06560827991,
+          "exit": 68433.73102263549,
+          "pnl": "-0.23%",
+          "dollarPnl": "-4.45",
+          "capital": "9882.71"
+        },
+        {
+          "time": "2026-02-26T07:02:50.879Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68178.63",
+          "qty": "0.028991",
+          "size": "1976.54"
+        },
+        {
+          "time": "2026-02-26T08:02:25.249Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68178.6307566451,
+          "exit": 67849.39051310069,
+          "pnl": "0.48%",
+          "dollarPnl": "9.54",
+          "capital": "9892.25"
+        },
+        {
+          "time": "2026-02-26T10:03:11.397Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "68571.60",
+          "qty": "0.028852",
+          "size": "1978.45"
+        },
+        {
+          "time": "2026-02-26T12:00:19.411Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 68571.59879322391,
+          "exit": 68033.5795724743,
+          "pnl": "-0.78%",
+          "dollarPnl": "-15.52",
+          "capital": "9876.73"
+        },
+        {
+          "time": "2026-02-26T12:00:19.411Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "68033.58",
+          "qty": "0.029035",
+          "size": "1975.35"
+        },
+        {
+          "time": "2026-02-26T14:00:56.908Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 68033.5795724743,
+          "exit": 67911.73073937466,
+          "pnl": "0.18%",
+          "dollarPnl": "3.54",
+          "capital": "9880.27"
+        },
+        {
+          "time": "2026-02-26T16:02:49.547Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67386.86",
+          "qty": "0.029324",
+          "size": "1976.05"
+        },
+        {
+          "time": "2026-02-26T20:03:07.535Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67386.85704262121,
+          "exit": 67584.87840019423,
+          "pnl": "0.29%",
+          "dollarPnl": "5.81",
+          "capital": "9886.08"
+        },
+        {
+          "time": "2026-02-26T23:03:03.518Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67559.78",
+          "qty": "0.029266",
+          "size": "1977.22"
+        },
+        {
+          "time": "2026-02-27T01:04:10.117Z",
+          "action": "CLOSE",
+          "reason": "SIGNAL_REV",
+          "side": "LONG",
+          "entry": 67559.77818097749,
+          "exit": 67222.78947317986,
+          "pnl": "-0.50%",
+          "dollarPnl": "-9.86",
+          "capital": "9876.21"
+        },
+        {
+          "time": "2026-02-27T01:04:10.117Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67222.79",
+          "qty": "0.029384",
+          "size": "1975.24"
+        },
+        {
+          "time": "2026-02-27T02:03:20.001Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67222.78947317986,
+          "exit": 67347.6530265583,
+          "pnl": "-0.19%",
+          "dollarPnl": "-3.67",
+          "capital": "9872.54"
+        },
+        {
+          "time": "2026-02-27T04:03:17.716Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "67617.94",
+          "qty": "0.029201",
+          "size": "1974.51"
+        },
+        {
+          "time": "2026-02-27T05:02:39.543Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "LONG",
+          "entry": 67617.93798877213,
+          "exit": 67736.13847728852,
+          "pnl": "0.17%",
+          "dollarPnl": "3.45",
+          "capital": "9876.00"
+        },
+        {
+          "time": "2026-02-27T09:03:31.409Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67938.64",
+          "qty": "0.029073",
+          "size": "1975.20"
+        },
+        {
+          "time": "2026-02-27T10:03:48.337Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67938.63876392743,
+          "exit": 67368.86769274919,
+          "pnl": "0.84%",
+          "dollarPnl": "16.57",
+          "capital": "9892.56"
+        },
+        {
+          "time": "2026-02-27T10:03:48.337Z",
+          "action": "OPEN",
+          "side": "SHORT",
+          "price": "67368.87",
+          "qty": "0.029368",
+          "size": "1978.51"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "RSI_EXIT",
+          "side": "SHORT",
+          "entry": 67368.86769274919,
+          "exit": 66656.43764823875,
+          "pnl": "1.06%",
+          "dollarPnl": "20.92",
+          "capital": "9913.48"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "OPEN",
+          "side": "LONG",
+          "price": "66656.44",
+          "qty": "0.029745",
+          "size": "1982.70"
+        },
+        {
+          "time": "2026-02-27T10:53:56.000Z",
+          "action": "CLOSE",
+          "reason": "END",
+          "side": "LONG",
+          "entry": 66656.43764823875,
+          "exit": 66656.43764823875,
+          "pnl": "0.00%",
+          "dollarPnl": "0.00",
+          "capital": "9913.48"
+        }
+      ]
+    }
+  ]
+}

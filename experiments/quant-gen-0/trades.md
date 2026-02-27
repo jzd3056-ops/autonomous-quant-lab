@@ -1,16 +1,85 @@
 # Quant Gen-0 — Trade Log
 
-## Active Position
-| # | Time (UTC) | Side | Entry | Size | Status |
-|---|-----------|------|-------|------|--------|
-| 1 | 2026-02-27 07:12 | LONG | $67,675.21 | $5,000 (0.073882 BTC) | OPEN (+0.02% @ 08:01) |
+## Summary (Day 1)
+- **Strategy:** Ultra Scalper — EMA(2/5) + RSI(4), 20% position sizing
+- **Period:** 2026-02-20 ~ 2026-02-27 (7 days backtest on hourly data)
+- **Total Trades:** 44 closed
+- **Win Rate:** 56.8% (25W / 19L)
+- **Total Return:** +0.15% ($10,000 → $10,015.04)
+- **Avg PnL/trade:** +0.018%
+- **Max Win:** +2.66% | **Max Loss:** -3.47%
+- **Stop Loss:** -1.5% | **Take Profit:** +2.0%
 
-## Closed Trades
-_None yet._
+## Live Trades (Sim)
+| # | Time (UTC) | Side | Entry | Exit | PnL | Status |
+|---|-----------|------|-------|------|-----|--------|
+| 1 | 2026-02-27 07:12 | LONG | $67,675 | $67,038 | -0.94% | CLOSED (reversal) |
+| 2 | 2026-02-27 10:43 | LONG | $66,779 | $66,656 | -0.18% | CLOSED (manual) |
 
-## Strategy
-- **Version:** Aggressive v3
-- **Indicators:** EMA(5/13) + RSI(10)
-- **Signals:** EMA crossover, RSI extremes (35/65), trend+momentum (0.3%), EMA spread (0.05%)
-- **Risk:** 50% position size, 3% stop-loss, 5% take-profit
-- **Initial Capital:** $10,000
+**Live capital after 2 trades:** ~$9,943.79
+
+## Backtest Trades (Ultra_2_5 strategy, 7-day hourly)
+| # | Time | Side | Reason | Entry | Exit | PnL | $PnL | Capital |
+|---|------|------|--------|-------|------|-----|------|---------|
+| 1 | 2026-02-21 07:00 | SHORT | RSI_EXIT | $67636 | $67771 | -0.20% | $-3.99 | $9996.01 |
+| 2 | 2026-02-21 09:02 | LONG | RSI_EXIT | $67836 | $68033 | 0.29% | $5.83 | $10001.84 |
+| 3 | 2026-02-21 21:03 | SHORT | RSI_EXIT | $68134 | $68285 | -0.22% | $-4.42 | $9997.42 |
+| 4 | 2026-02-21 23:03 | SHORT | RSI_EXIT | $68285 | $67951 | 0.49% | $9.77 | $10007.19 |
+| 5 | 2026-02-22 08:03 | LONG | SIGNAL_REV | $67951 | $67986 | 0.05% | $1.02 | $10008.21 |
+| 6 | 2026-02-22 09:02 | SHORT | RSI_EXIT | $67986 | $67950 | 0.05% | $1.05 | $10009.26 |
+| 7 | 2026-02-22 11:02 | LONG | RSI_EXIT | $68039 | $68119 | 0.12% | $2.35 | $10011.61 |
+| 8 | 2026-02-22 13:02 | SHORT | RSI_EXIT | $68195 | $67932 | 0.39% | $7.72 | $10019.33 |
+| 9 | 2026-02-22 14:02 | SHORT | RSI_EXIT | $67932 | $67632 | 0.44% | $8.84 | $10028.17 |
+| 10 | 2026-02-22 22:02 | LONG | RSI_EXIT | $67632 | $67584 | -0.07% | $-1.41 | $10026.76 |
+| 11 | 2026-02-22 23:02 | LONG | RSI_EXIT | $67584 | $67654 | 0.10% | $2.06 | $10028.82 |
+| 12 | 2026-02-23 02:03 | LONG | STOP_LOSS | $66754 | $64435 | -3.47% | $-69.69 | $9959.13 |
+| 13 | 2026-02-23 07:03 | LONG | TAKE_PROFIT | $64435 | $65753 | 2.04% | $40.72 | $9999.86 |
+| 14 | 2026-02-23 08:02 | LONG | RSI_EXIT | $65753 | $65940 | 0.28% | $5.70 | $10005.56 |
+| 15 | 2026-02-23 16:03 | SHORT | RSI_EXIT | $65914 | $65646 | 0.41% | $8.14 | $10013.70 |
+| 16 | 2026-02-23 19:03 | LONG | STOP_LOSS | $65382 | $64633 | -1.15% | $-22.94 | $9990.76 |
+| 17 | 2026-02-24 01:00 | LONG | RSI_EXIT | $64633 | $64942 | 0.48% | $9.54 | $10000.30 |
+| 18 | 2026-02-24 02:03 | LONG | STOP_LOSS | $64942 | $64136 | -1.24% | $-24.82 | $9975.48 |
+| 19 | 2026-02-24 03:02 | SHORT | RSI_EXIT | $64136 | $64066 | 0.11% | $2.16 | $9977.64 |
+| 20 | 2026-02-24 05:03 | LONG | STOP_LOSS | $64066 | $63328 | -1.15% | $-23.01 | $9954.63 |
+| 21 | 2026-02-24 15:02 | LONG | RSI_EXIT | $63328 | $63447 | 0.19% | $3.75 | $9958.39 |
+| 22 | 2026-02-24 16:01 | LONG | RSI_EXIT | $63447 | $63963 | 0.81% | $16.20 | $9974.59 |
+| 23 | 2026-02-24 22:02 | SHORT | RSI_EXIT | $63963 | $64046 | -0.13% | $-2.58 | $9972.01 |
+| 24 | 2026-02-25 01:01 | SHORT | SIGNAL_REV | $64046 | $64234 | -0.29% | $-5.85 | $9966.16 |
+| 25 | 2026-02-25 02:03 | LONG | TAKE_PROFIT | $64234 | $65942 | 2.66% | $53.03 | $10019.19 |
+| 26 | 2026-02-25 06:02 | SHORT | TAKE_PROFIT | $65942 | $64881 | 1.61% | $32.27 | $10051.46 |
+| 27 | 2026-02-25 07:02 | SHORT | RSI_EXIT | $64881 | $64882 | -0.00% | $-0.04 | $10051.41 |
+| 28 | 2026-02-25 10:02 | LONG | RSI_EXIT | $65507 | $65544 | 0.06% | $1.14 | $10052.55 |
+| 29 | 2026-02-25 15:03 | SHORT | STOP_LOSS | $66061 | $66952 | -1.35% | $-27.11 | $10025.44 |
+| 30 | 2026-02-25 17:03 | SHORT | STOP_LOSS | $66952 | $68274 | -1.97% | $-39.59 | $9985.85 |
+| 31 | 2026-02-25 19:03 | SHORT | STOP_LOSS | $68274 | $69340 | -1.56% | $-31.20 | $9954.65 |
+| 32 | 2026-02-26 00:03 | SHORT | TAKE_PROFIT | $69340 | $67955 | 2.00% | $39.79 | $9994.44 |
+| 33 | 2026-02-26 07:02 | LONG | SIGNAL_REV | $68588 | $68179 | -0.60% | $-11.93 | $9982.51 |
+| 34 | 2026-02-26 08:02 | SHORT | RSI_EXIT | $68179 | $67849 | 0.48% | $9.64 | $9992.15 |
+| 35 | 2026-02-26 12:00 | LONG | SIGNAL_REV | $68572 | $68034 | -0.78% | $-15.68 | $9976.47 |
+| 36 | 2026-02-26 14:00 | SHORT | RSI_EXIT | $68034 | $67912 | 0.18% | $3.57 | $9980.04 |
+| 37 | 2026-02-26 17:03 | LONG | STOP_LOSS | $67387 | $66642 | -1.11% | $-22.08 | $9957.97 |
+| 38 | 2026-02-26 20:03 | LONG | RSI_EXIT | $66642 | $67585 | 1.42% | $28.19 | $9986.16 |
+| 39 | 2026-02-26 23:03 | LONG | RSI_EXIT | $67585 | $67560 | -0.04% | $-0.74 | $9985.42 |
+| 40 | 2026-02-27 04:03 | SHORT | SIGNAL_REV | $67223 | $67618 | -0.59% | $-11.74 | $9973.68 |
+| 41 | 2026-02-27 05:02 | LONG | RSI_EXIT | $67618 | $67736 | 0.17% | $3.49 | $9977.16 |
+| 42 | 2026-02-27 10:03 | SHORT | RSI_EXIT | $67939 | $67369 | 0.84% | $16.73 | $9993.90 |
+| 43 | 2026-02-27 10:53 | SHORT | RSI_EXIT | $67369 | $66656 | 1.06% | $21.14 | $10015.04 |
+| 44 | 2026-02-27 10:53 | LONG | END | $66656 | $66656 | 0.00% | $0.00 | $10015.04 |
+
+## Strategy Comparison (7-day backtest)
+| Strategy | Trades | Return | Win Rate | Final |
+|----------|--------|--------|----------|-------|
+| **Ultra_2_5** | **44** | **+0.15%** | **56.8%** | **$10,015** |
+| Aggressive_3_7 | 35 | -0.87% | 54.3% | $9,913 |
+| Scalper_3_8_wide | 33 | -0.94% | 45.5% | $9,906 |
+| Scalper_3_8 | 28 | -1.36% | 50.0% | $9,864 |
+| Fast_5_13 | 17 | -1.26% | 35.3% | $9,874 |
+
+## Observations
+1. Ultra-fast EMA(2/5) with RSI(4) generates the most trades AND the best return
+2. Shorter periods = more signals, but needs tight risk management (20% sizing crucial)
+3. Previous 50% position sizing caused capital ruin across all strategies
+4. RSI_EXIT is the most common close reason — momentum-based exits work well
+5. STOP_LOSS trades are the biggest losers (trade #12: -3.47%, -$69.69)
+6. Best trades come from TAKE_PROFIT hits during sharp moves
+7. Strategy is slightly profitable in a down-trending market — decent sign

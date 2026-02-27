@@ -5,3 +5,22 @@
 [2026-02-27T07:43:26.226Z] BTC=$67499.5309223031 | Signal=HOLD | Capital=$5000.00 | Position=LONG @ $67675.21
   📊 Holding LONG: PnL -0.26%
   💰 Portfolio: $9987.02 (-0.13%)
+[2026-02-27T08:13:26.342Z] BTC=$68000.26603751845 | Signal=BUY | Capital=$5000.00 | Position=LONG @ $67675.21
+  📊 Holding LONG: PnL 0.48%
+  💰 Portfolio: $10024.02 (0.24%)
+[2026-02-27T08:43:26.395Z] BTC=$67834.99754474891 | Signal=BUY | Capital=$5000.00 | Position=LONG @ $67675.21
+  📊 Holding LONG: PnL 0.24%
+  💰 Portfolio: $10011.81 (0.12%)
+[2026-02-27T09:13:26.493Z] BTC=$67943.10183204312 | Signal=BUY | Capital=$5000.00 | Position=LONG @ $67675.21
+  📊 Holding LONG: PnL 0.40%
+  💰 Portfolio: $10019.79 (0.20%)
+[2026-02-27T09:43:26.630Z] BTC=$67798.82160652093 | Signal=BUY | Capital=$5000.00 | Position=LONG @ $67675.21
+  📊 Holding LONG: PnL 0.18%
+  💰 Portfolio: $10009.13 (0.09%)
+[2026-02-27T10:13:26.736Z] BTC=$67037.54637166268 | Signal=SHORT | Capital=$5000.00 | Position=LONG @ $67675.21
+  📊 Holding LONG: PnL -0.94%
+  🔄 CLOSE LONG (reversal): PnL -0.94%
+  💰 Portfolio: $9952.89 (-0.47%)
+[2026-02-27T10:43:26.788Z] BTC=$66778.58456528778 | Signal=BUY_OVERSOLD | Capital=$9952.89 | Position=NONE
+  🟢 OPEN LONG: 0.074522 BTC @ $66778.58456528778 (size: $4976.44)
+  💰 Portfolio: $9952.89 (-0.47%)
