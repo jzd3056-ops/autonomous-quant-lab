@@ -1,7 +1,13 @@
 {
-  "capital": 10000,
-  "position": null,
+  "capital": 5000,
+  "position": {
+    "side": "LONG",
+    "entry": 67675.21,
+    "qty": 0.0738822975207613,
+    "collateral": 5000,
+    "openTime": "2026-02-27T07:12:44.436Z"
+  },
   "trades": [],
-  "lastCheck": "2026-02-27T06:18:23.378Z",
+  "lastCheck": "2026-02-27T07:13:26.069Z",
   "totalTrades": 0
 }

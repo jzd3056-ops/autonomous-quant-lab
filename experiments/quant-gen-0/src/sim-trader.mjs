@@ -54,26 +54,39 @@ function rsi(prices, period=14) {
   return r;
 }
 
-// --- Signal generation ---
+// --- Signal generation (aggressive v2) ---
 function getSignal(data) {
   const closes = data.map(d => d.close);
-  const f = ema(closes, 9), s = ema(closes, 21);
-  const r = rsi(closes, 14);
+  // Faster EMAs for more signals
+  const f = ema(closes, 5), s = ema(closes, 13);
+  const r = rsi(closes, 10); // shorter RSI
   const i = data.length - 1;
   const ip = i - 1;
   
   if (r[i] === null) return 'HOLD';
   
-  // Strong signals with RSI confirmation
   const emaBullCross = f[ip] <= s[ip] && f[i] > s[i];
   const emaBearCross = f[ip] >= s[ip] && f[i] < s[i];
   const trend = f[i] > s[i] ? 'UP' : 'DOWN';
+  const momentum = (closes[i] - closes[Math.max(0, i-6)]) / closes[Math.max(0, i-6)] * 100;
   
-  // Enhanced logic: include short signals
-  if (emaBullCross && r[i] < 55) return 'BUY';
-  if (emaBearCross && r[i] > 45) return 'SHORT';
-  if (r[i] > 78) return 'SELL_OVERBOUGHT';
-  if (r[i] < 22) return 'BUY_OVERSOLD';
+  // --- Aggressive v3 signals ---
+  // EMA crossover (relaxed RSI filter)
+  if (emaBullCross && r[i] < 65) return 'BUY';
+  if (emaBearCross && r[i] > 35) return 'SHORT';
+  
+  // RSI extremes (wider bands)
+  if (r[i] > 65) return 'SELL_OVERBOUGHT';
+  if (r[i] < 35) return 'BUY_OVERSOLD';
+  
+  // Trend + momentum (lower threshold)
+  if (trend === 'UP' && momentum > 0.3 && r[i] < 62) return 'BUY';
+  if (trend === 'DOWN' && momentum < -0.3 && r[i] > 38) return 'SHORT';
+  
+  // EMA spread signal: if EMAs diverge enough, trade the trend
+  const spread = (f[i] - s[i]) / s[i] * 100;
+  if (spread > 0.05 && r[i] < 60) return 'BUY';
+  if (spread < -0.05 && r[i] > 40) return 'SHORT';
   
   return 'HOLD';
 }
@@ -170,4 +183,15 @@ async function run() {
   saveState(state);
 }
 
-run().catch(console.error);
+// Support --loop flag for continuous running
+const loopMode = process.argv.includes('--loop');
+const INTERVAL_MS = 30 * 60 * 1000; // 30 minutes
+
+async function main() {
+  await run();
+  if (loopMode) {
+    console.log(`  ⏰ Next check in 30 minutes...`);
+    setInterval(() => run().catch(console.error), INTERVAL_MS);
+  }
+}
+main().catch(console.error);
