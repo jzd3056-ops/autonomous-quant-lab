@@ -21,3 +21,8 @@
 -e 
 ### 2026-02-27 15:31 UTC
 BTC=$66,055 | Signal=HOLD | Portfolio=$10,000 (0%) | No position | 0 trades
+
+### 2026-02-27 16:01 UTC
+BTC=$66,087 | Signal=HOLD | Portfolio=$10,000 (0%) | No position | 0 trades
+sim-trader restarted (PID 28888). 4h since first run — still waiting for EMA crossover.
+- 17:01Z | BTC=5,510 | HOLD | Portfolio=0,000 | sim-trader restarted (was down)
