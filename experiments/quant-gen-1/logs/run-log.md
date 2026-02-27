@@ -12,3 +12,9 @@
 - BTC=$65,959, Signal=HOLD, Portfolio=$10,000
 - ~1.5h since first run, approaching Hour 2 milestone (backtest already done ✅)
 - Risk state clean: 0 consecutive losses, no pause
+## 14:32 UTC — Routine check
+- BTC: $66,250 | Signal: HOLD | Position: NONE
+- sim-trader restarted (was down), running OK
+- Portfolio: $10,000 (0.00%)
+- Risk state clean: 0 consecutive losses, no pause
+
