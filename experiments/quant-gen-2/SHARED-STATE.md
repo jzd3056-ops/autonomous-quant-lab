@@ -3,23 +3,23 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $65,537 (as of 22:01Z)
-- **Portfolio**: ~$10,000.45 (+0.005%)
-- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized +$0.45
+- **BTC Price**: $65,412 (as of 22:31Z)
+- **Portfolio**: ~$9,999.50 (-0.005%)
+- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized -$0.50
 - **Total Trades**: 1 (open)
-- **pm2**: online, uptime ~4h, 2 restarts, no errors
+- **pm2**: online, uptime ~4.5h, 2 restarts, no errors
 
 ## Backtest Results
 - Trades: 20 | Win Rate: 50.0% | Return: +0.81%
 - Config: Trend(EMA 5/13) + MeanRev(RSI 14) | SL=-2% TP=3% | Size=5%
 
 ## Current Market
-- BTC $65,537 — slightly above entry (+0.09%)
-- No new signals this cycle (neither trend nor meanrev triggered)
-- Position holding, slow grind upward
+- BTC $65,412 — slightly below entry (-0.10%)
+- Position still within normal range, no SL/TP trigger
+- Sim-trader running autonomously every 30min
 
 ## Risk State
-- Daily loss: 0% (limit: 5%)
+- Daily loss: ~0% (limit: 5%)
 - Consecutive losses: 0 (limit: 3)
 - No pause active
 
@@ -34,4 +34,5 @@
 - **19:02Z**: Loosened mean reversion RSI thresholds (30/70 normal, 35/65 adaptive)
 - **20:32Z**: 🎉 First trade! MEANREV adaptive LONG @ $65,478
 - **21:31Z**: Routine check — position healthy, BTC rising, no new signals
-- **22:01Z**: Routine check — position +$0.45 (+0.09%), pm2 stable, no new signals
+- **22:01Z**: Routine check — position +$0.45 (+0.09%), pm2 stable
+- **22:31Z**: Routine check — BTC dipped to $65,412, position -0.10%, within range
