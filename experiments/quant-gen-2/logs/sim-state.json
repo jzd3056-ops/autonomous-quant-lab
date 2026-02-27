@@ -1,8 +1,17 @@
 {
-  "cash": 10000,
-  "positions": [],
+  "cash": 9500,
+  "positions": [
+    {
+      "side": "LONG",
+      "entry": 65478.23,
+      "qty": 0.007636125777987585,
+      "collateral": 500,
+      "openTime": "2026-02-27T20:32:56.859Z",
+      "strategy": "MEANREV"
+    }
+  ],
   "totalTrades": 0,
-  "lastCheck": "2026-02-27T19:32:56.849Z",
-  "lastSignalTime": null,
+  "lastCheck": "2026-02-27T20:32:56.859Z",
+  "lastSignalTime": "2026-02-27T20:32:56.859Z",
   "startTime": "2026-02-27T18:05:17.809Z"
 }

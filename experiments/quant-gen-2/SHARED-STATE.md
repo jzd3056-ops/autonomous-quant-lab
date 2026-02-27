@@ -3,32 +3,32 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $65,451 (as of 20:01Z)
-- **Portfolio**: $10,000.00 (0.00%)
-- **Positions**: NONE
-- **Total Trades**: 0
-- **pm2**: online, uptime 58m, 2 restarts
+- **BTC Price**: $65,559 (as of 21:01Z)
+- **Portfolio**: ~$10,000.62 (+0.006%)
+- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized +$0.62
+- **Total Trades**: 1 (open)
+- **pm2**: online, uptime 119m, 2 restarts
 
 ## Backtest Results
 - Trades: 20 | Win Rate: 50.0% | Return: +0.81%
 - Config: Trend(EMA 5/13) + MeanRev(RSI 14) | SL=-2% TP=3% | Size=5%
 
 ## Current Market
-- BTC RSI(14): 34.49 (oversold zone)
-- EMA5 < EMA13 (bearish trend, -0.74% gap)
-- MeanRev adaptive BUY signal confirmed ready — triggers once adaptive mode activates
+- BTC $65,559 — up ~$81 from entry
+- Position in profit, no risk triggers hit
 
-## Next Expected Action
-- **~20:05Z**: Adaptive mode activates (2h since start). RSI 34.49 < 35 adaptive threshold → MEANREV BUY signal fires → LONG $500 (~0.00764 BTC)
-- This will be Gen-2's first trade 🎯
+## Risk State
+- Daily loss: 0% (limit: 5%)
+- Consecutive losses: 0 (limit: 3)
+- No pause active
 
 ## Milestones
 - [x] Hour 2: Backtest complete ✅
-- [ ] Hour 6: First simulated trade (ETA: ~20:05Z — 4 min away!)
+- [x] Hour 3: First simulated trade ✅ (20:32Z — MEANREV adaptive LONG)
 - [ ] Day 1: 10 trades + evaluation
 - [ ] Day 3: Cumulative positive return
 
 ## Hotfix Log
 - **19:02Z**: Fixed adaptive entry bug — lastSignalTime=null fallback to startTime
 - **19:02Z**: Loosened mean reversion RSI thresholds (30/70 normal, 35/65 adaptive)
-- **20:01Z**: Confirmed adaptive BUY signal ready. RSI=34.49, adaptive threshold=35. Waiting for 20:05Z check cycle.
+- **20:32Z**: 🎉 First trade! MEANREV adaptive LONG @ $65,478
