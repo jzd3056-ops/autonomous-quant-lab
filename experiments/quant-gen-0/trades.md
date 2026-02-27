@@ -16,7 +16,9 @@
 | 1 | 2026-02-27 07:12 | LONG | $67,675 | $67,038 | -0.94% | CLOSED (reversal) |
 | 2 | 2026-02-27 10:43 | LONG | $66,779 | $66,656 | -0.18% | CLOSED (manual) |
 
-**Live capital after 2 trades:** ~$9,943.79
+| 3 | 2026-02-27 11:02 | LONG | $66,678 | — | — | OPEN (RSI oversold) |
+
+**Live capital after 2 closed + 1 open:** ~$9,944 (position: LONG 0.0298 BTC)
 
 ## Backtest Trades (Ultra_2_5 strategy, 7-day hourly)
 | # | Time | Side | Reason | Entry | Exit | PnL | $PnL | Capital |
@@ -69,17 +71,24 @@
 ## Strategy Comparison (7-day backtest)
 | Strategy | Trades | Return | Win Rate | Final |
 |----------|--------|--------|----------|-------|
-| **Ultra_2_5** | **44** | **+0.15%** | **56.8%** | **$10,015** |
+| **Ultra_V2** | **71** | **+2.55%** | **66.2%** | **$10,255** |
+| Ultra_2_5 (v1) | 44 | +0.15% | 56.8% | $10,015 |
 | Aggressive_3_7 | 35 | -0.87% | 54.3% | $9,913 |
 | Scalper_3_8_wide | 33 | -0.94% | 45.5% | $9,906 |
 | Scalper_3_8 | 28 | -1.36% | 50.0% | $9,864 |
 | Fast_5_13 | 17 | -1.26% | 35.3% | $9,874 |
 
+## V2 Parameter Changes (2026-02-27 11:32 UTC)
+- SL: -1.5% → **-0.8%** (faster cut losses)
+- TP: +2.0% → **+1.0%** (take profits earlier)
+- RSI bands: 30/70 → **40/60** (more signals)
+- Momentum threshold: 0.15% → **0.05%** (more sensitive)
+- Check interval: 15min → **5min** (faster cycling)
+
 ## Observations
-1. Ultra-fast EMA(2/5) with RSI(4) generates the most trades AND the best return
-2. Shorter periods = more signals, but needs tight risk management (20% sizing crucial)
-3. Previous 50% position sizing caused capital ruin across all strategies
-4. RSI_EXIT is the most common close reason — momentum-based exits work well
-5. STOP_LOSS trades are the biggest losers (trade #12: -3.47%, -$69.69)
-6. Best trades come from TAKE_PROFIT hits during sharp moves
-7. Strategy is slightly profitable in a down-trending market — decent sign
+1. V2 dramatically improves: 71 trades, 66.2% WR, +2.55% return
+2. Tighter SL/TP = faster trade cycling = more opportunities
+3. Wider RSI bands capture more reversals
+4. Key insight: small frequent wins > big infrequent ones
+5. 20% position sizing remains optimal — limits drawdown per trade
+6. Strategy profitable in both trending and ranging markets

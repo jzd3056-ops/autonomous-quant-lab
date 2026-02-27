@@ -57,9 +57,9 @@ function rsi(prices, period=14) {
 // --- Signal generation (aggressive v2) ---
 function getSignal(data) {
   const closes = data.map(d => d.close);
-  // Faster EMAs for more signals
-  const f = ema(closes, 5), s = ema(closes, 13);
-  const r = rsi(closes, 10); // shorter RSI
+  // Ultra_2_5 strategy — matches winning backtest
+  const f = ema(closes, 2), s = ema(closes, 5);
+  const r = rsi(closes, 4);
   const i = data.length - 1;
   const ip = i - 1;
   
@@ -68,25 +68,25 @@ function getSignal(data) {
   const emaBullCross = f[ip] <= s[ip] && f[i] > s[i];
   const emaBearCross = f[ip] >= s[ip] && f[i] < s[i];
   const trend = f[i] > s[i] ? 'UP' : 'DOWN';
-  const momentum = (closes[i] - closes[Math.max(0, i-6)]) / closes[Math.max(0, i-6)] * 100;
   
-  // --- Aggressive v3 signals ---
-  // EMA crossover (relaxed RSI filter)
-  if (emaBullCross && r[i] < 65) return 'BUY';
-  if (emaBearCross && r[i] > 35) return 'SHORT';
+  // --- Ultra-aggressive signals (more triggers) ---
+  // EMA crossover
+  if (emaBullCross) return 'BUY';
+  if (emaBearCross) return 'SHORT';
   
-  // RSI extremes (wider bands)
-  if (r[i] > 65) return 'SELL_OVERBOUGHT';
-  if (r[i] < 35) return 'BUY_OVERSOLD';
+  // RSI extremes — widened bands for more signals
+  if (r[i] > 60) return 'SELL_OVERBOUGHT';
+  if (r[i] < 40) return 'BUY_OVERSOLD';
   
-  // Trend + momentum (lower threshold)
-  if (trend === 'UP' && momentum > 0.3 && r[i] < 62) return 'BUY';
-  if (trend === 'DOWN' && momentum < -0.3 && r[i] > 38) return 'SHORT';
+  // Trend continuation with any momentum — lowered threshold
+  const momentum = (closes[i] - closes[Math.max(0, i-3)]) / closes[Math.max(0, i-3)] * 100;
+  if (trend === 'UP' && momentum > 0.05) return 'BUY';
+  if (trend === 'DOWN' && momentum < -0.05) return 'SHORT';
   
-  // EMA spread signal: if EMAs diverge enough, trade the trend
+  // EMA spread signal — nearly always triggers when not flat
   const spread = (f[i] - s[i]) / s[i] * 100;
-  if (spread > 0.05 && r[i] < 60) return 'BUY';
-  if (spread < -0.05 && r[i] > 40) return 'SHORT';
+  if (spread > 0.01) return 'BUY';
+  if (spread < -0.01) return 'SHORT';
   
   return 'HOLD';
 }
@@ -105,7 +105,7 @@ async function run() {
     const { side, entry, qty } = state.position;
     const pnlPct = side === 'LONG' ? (price - entry)/entry*100 : (entry - price)/entry*100;
     
-    if (pnlPct <= -3) { // stop loss
+    if (pnlPct <= -0.8) { // stop loss — tightened for more trades
       const pnl = side === 'LONG' ? qty*(price-entry) : qty*(entry-price);
       state.capital += qty*price + (side==='SHORT'? qty*(entry-price) : 0);
       if (side==='LONG') state.capital = qty*price;
@@ -113,7 +113,7 @@ async function run() {
       console.log(`  ⛔ STOP LOSS: ${side} closed at $${price}, PnL: ${pnlPct.toFixed(2)}%`);
       logTrade({ action:'CLOSE_SL', side, entry, exit:price, pnl:pnlPct.toFixed(2)+'%', capital:state.capital.toFixed(2) });
       state.position = null; state.totalTrades++;
-    } else if (pnlPct >= 5) { // take profit
+    } else if (pnlPct >= 1.0) { // take profit — tightened for more trades
       if (side==='LONG') state.capital = qty*price;
       else state.capital = state.position.collateral + qty*(entry-price);
       console.log(`  ✅ TAKE PROFIT: ${side} closed at $${price}, PnL: ${pnlPct.toFixed(2)}%`);
@@ -126,7 +126,7 @@ async function run() {
   
   // New position
   if (!state.position) {
-    const posSize = state.capital * 0.5; // 50% of capital
+    const posSize = state.capital * 0.2; // 20% — matches winning backtest
     if (signal === 'BUY' || signal === 'BUY_OVERSOLD') {
       const qty = posSize / price;
       state.position = { side:'LONG', entry:price, qty, collateral:posSize, openTime:new Date().toISOString() };
@@ -185,7 +185,7 @@ async function run() {
 
 // Support --loop flag for continuous running
 const loopMode = process.argv.includes('--loop');
-const INTERVAL_MS = 30 * 60 * 1000; // 30 minutes
+const INTERVAL_MS = 5 * 60 * 1000; // 5 minutes — ultra-aggressive for trade count
 
 async function main() {
   await run();
