@@ -1,0 +1,7 @@
+{
+  "name": "quant-gen-1",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
