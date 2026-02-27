@@ -3,9 +3,9 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $65,412 (as of 22:31Z)
-- **Portfolio**: ~$9,999.50 (-0.005%)
-- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized -$0.50
+- **BTC Price**: $65,882 (as of 23:31Z)
+- **Portfolio**: ~$10,003.09 (+0.03%)
+- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized +$0.56
 - **Total Trades**: 1 (open)
 - **pm2**: online, uptime ~4.5h, 2 restarts, no errors
 
@@ -36,3 +36,5 @@
 - **21:31Z**: Routine check — position healthy, BTC rising, no new signals
 - **22:01Z**: Routine check — position +$0.45 (+0.09%), pm2 stable
 - **22:31Z**: Routine check — BTC dipped to $65,412, position -0.10%, within range
+- **23:01Z**: Routine check — BTC $65,551, position +0.11%, pm2 stable (3h uptime, 2 restarts)
+- **23:31Z**: Routine check — BTC $65,882, position +0.62%, pm2 online (4h uptime). Best price yet.
