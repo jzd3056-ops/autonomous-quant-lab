@@ -2,3 +2,23 @@
   📊 Holding LONG: PnL -0.22%
   💰 Portfolio: $9939.45 (-0.61%)
   ⏰ Next check in 30 minutes...
+[2026-02-27T11:37:50.173Z] BTC=$66324.00924651131 | Signal=BUY_OVERSOLD | Capital=$7955.03 | Position=LONG @ $66677.94982693827
+  📊 Holding LONG: PnL -0.53%
+  💰 Portfolio: $9933.23 (-0.67%)
+[2026-02-27T11:42:50.271Z] BTC=$66075.5146028947 | Signal=BUY_OVERSOLD | Capital=$7955.03 | Position=LONG @ $66677.94982693827
+  ⛔ STOP LOSS: LONG closed at $66075.5146028947, PnL: -0.90%
+  🟢 OPEN LONG: 0.005965 BTC @ $66075.5146028947 (size: $394.16)
+  💰 Portfolio: $1970.79 (-80.29%)
+  ☠️ DEATH: Portfolio below 50% of initial capital!
+[2026-02-27T11:47:50.460Z] BTC=$66041.29139514374 | Signal=BUY_OVERSOLD | Capital=$1576.63 | Position=LONG @ $66075.5146028947
+  📊 Holding LONG: PnL -0.05%
+  💰 Portfolio: $1970.58 (-80.29%)
+  ☠️ DEATH: Portfolio below 50% of initial capital!
+[2026-02-27T11:52:50.501Z] BTC=$66077.6350073129 | Signal=BUY_OVERSOLD | Capital=$1576.63 | Position=LONG @ $66075.5146028947
+  📊 Holding LONG: PnL 0.00%
+  💰 Portfolio: $1970.80 (-80.29%)
+  ☠️ DEATH: Portfolio below 50% of initial capital!
+[2026-02-27T11:57:50.577Z] BTC=$66028.09516695802 | Signal=BUY_OVERSOLD | Capital=$1576.63 | Position=LONG @ $66075.5146028947
+  📊 Holding LONG: PnL -0.07%
+  💰 Portfolio: $1970.51 (-80.29%)
+  ☠️ DEATH: Portfolio below 50% of initial capital!
