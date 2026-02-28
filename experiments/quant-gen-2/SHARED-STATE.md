@@ -3,20 +3,19 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $65,882 (as of 23:31Z)
-- **Portfolio**: ~$10,003.09 (+0.03%)
-- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized +$0.56
-- **Total Trades**: 1 (open)
-- **pm2**: online, uptime ~4.5h, 2 restarts, no errors
+- **BTC Price**: $65,744 (as of 00:31Z Feb 28)
+- **Portfolio**: ~$10,002.03 (+0.02%)
+- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized +$2.03 (+0.41%)
+- **Total Trades**: 0 closed, 1 open
+- **pm2**: online, uptime ~6.5h, 2 restarts, no errors
 
 ## Backtest Results
 - Trades: 20 | Win Rate: 50.0% | Return: +0.81%
 - Config: Trend(EMA 5/13) + MeanRev(RSI 14) | SL=-2% TP=3% | Size=5%
 
 ## Current Market
-- BTC $65,412 — slightly below entry (-0.10%)
-- Position still within normal range, no SL/TP trigger
-- Sim-trader running autonomously every 30min
+- BTC dipped slightly from $65,895 → $65,744, still above entry
+- Position +0.41% — needs +3% ($67,443) for TP or -2% ($64,168) for SL
 
 ## Risk State
 - Daily loss: ~0% (limit: 5%)
@@ -26,15 +25,12 @@
 ## Milestones
 - [x] Hour 2: Backtest complete ✅
 - [x] Hour 3: First simulated trade ✅ (20:32Z — MEANREV adaptive LONG)
-- [ ] Day 1: 10 trades + evaluation
+- [ ] Day 1: 10 trades + evaluation (need 10 more closes — ~6.5h in, 1 open)
 - [ ] Day 3: Cumulative positive return
 
 ## Hotfix Log
 - **19:02Z**: Fixed adaptive entry bug — lastSignalTime=null fallback to startTime
 - **19:02Z**: Loosened mean reversion RSI thresholds (30/70 normal, 35/65 adaptive)
 - **20:32Z**: 🎉 First trade! MEANREV adaptive LONG @ $65,478
-- **21:31Z**: Routine check — position healthy, BTC rising, no new signals
-- **22:01Z**: Routine check — position +$0.45 (+0.09%), pm2 stable
-- **22:31Z**: Routine check — BTC dipped to $65,412, position -0.10%, within range
-- **23:01Z**: Routine check — BTC $65,551, position +0.11%, pm2 stable (3h uptime, 2 restarts)
-- **23:31Z**: Routine check — BTC $65,882, position +0.62%, pm2 online (4h uptime). Best price yet.
+- **00:01Z (Feb 28)**: Routine cron check — pm2 online 6h, BTC $65,895, position +0.64%
+- **00:31Z (Feb 28)**: Cron check — pm2 online 6.5h, BTC $65,744, position +0.41%, healthy
