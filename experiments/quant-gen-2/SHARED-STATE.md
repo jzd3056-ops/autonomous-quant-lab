@@ -3,7 +3,7 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $64,922 (as of 16:32Z Feb 28)
+- **BTC Price**: $65,076 (as of 17:02Z Feb 28)
 - **Portfolio**: ~$10,014 (+0.14%)
 - **Positions**: 2 open — MEANREV LONG @ $63,534 (+1.85%), TREND SHORT @ $65,009 (+0.46%)
 - **Total Trades**: 4 closed, 2 open (6 total entries)
@@ -42,3 +42,5 @@
 - **15:34Z (Feb 28)**: Cron check — pm2 online 20h+, BTC $64,666. MEANREV LONG +1.78%, TREND SHORT +0.53%. Portfolio $10,013.65 (+0.14%). 2 open positions, 2 closed trades. System healthy, no errors.
 - **16:02Z (Feb 28)**: Cron check — pm2 online 20h+, BTC $64,841. MEANREV LONG +2.06%, TREND SHORT +0.26%. Portfolio ~$10,014 (+0.14%). Both positions healthy. 0 pm2 errors. System stable.
 - **16:32Z (Feb 28)**: Cron check — pm2 online 22h, BTC $64,922. MEANREV LONG +2.18% (TP $65,440 only 0.8% away!), TREND SHORT +0.13%. Portfolio ~$10,014 (+0.14%). 0 errors. System stable.
+- **17:02Z (Feb 28)**: Cron check — pm2 online 23h, BTC $65,076. MEANREV LONG +2.43% (TP $65,440 only 0.56% away!), TREND SHORT -0.10%. Portfolio ~$10,014. 0 errors. System stable.
+- **17:32Z (Feb 28)**: Cron check — pm2 online 22h+, BTC $65,114. MEANREV LONG +2.49% (TP $65,440 only 0.50% away!), TREND SHORT -0.16%. Portfolio ~$10,014 (+0.14%). 0 errors. System stable. Approaching MEANREV TP!
