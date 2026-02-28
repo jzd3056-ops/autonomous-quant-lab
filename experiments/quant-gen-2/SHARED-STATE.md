@@ -3,7 +3,7 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $65,658 (as of 05:01Z Feb 28)
+- **BTC Price**: $65,598 (as of 05:31Z Feb 28)
 - **Portfolio**: ~$10,003 (+0.03%)
 - **Positions**: 2 open — MEANREV LONG @ $65,478 (+0.06%) + TREND SHORT @ $65,904 (+0.58%)
 - **Total Trades**: 0 closed, 2 open
@@ -46,3 +46,4 @@
 - **04:01Z (Feb 28)**: Cron check — pm2 online 10h, BTC $65,790. MEANREV LONG +0.48%, TREND SHORT +0.17%. Portfolio ~$10,003. Hedged, ranging market, waiting for breakout
 - **04:31Z (Feb 28)**: Cron check — pm2 online 10.5h, BTC $65,519 (dipping). MEANREV LONG +0.06%, TREND SHORT +0.58%. Hedged positions offsetting — SHORT benefiting from dip. Portfolio ~$10,003. SL levels: LONG $64,169, SHORT $67,222
 - **05:01Z (Feb 28)**: Cron check — pm2 online 11h, 0 errors. BTC $65,658. MEANREV LONG +0.27%, TREND SHORT +0.37%. Portfolio ~$10,003. Hedged, ranging market. No new signals. 2 open, 0 closed trades
+- **05:31Z (Feb 28)**: Cron check — pm2 online 11.5h, 0 errors. BTC $65,598. MEANREV LONG +0.18%, TREND SHORT +0.46%. Portfolio ~$10,003. Hedged, BTC drifting lower in tight range. 2 open, 0 closed trades
