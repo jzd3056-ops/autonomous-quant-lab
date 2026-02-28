@@ -3,11 +3,11 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $65,744 (as of 00:31Z Feb 28)
-- **Portfolio**: ~$10,002.03 (+0.02%)
-- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized +$2.03 (+0.41%)
+- **BTC Price**: $65,757 (as of 01:31Z Feb 28)
+- **Portfolio**: ~$10,003.21 (+0.03%)
+- **Positions**: 1 LONG (MEANREV) — 0.007636 BTC @ $65,478 — unrealized +$3.21 (+0.64%)
 - **Total Trades**: 0 closed, 1 open
-- **pm2**: online, uptime ~6.5h, 2 restarts, no errors
+- **pm2**: online, uptime ~7h, 2 restarts, no errors
 
 ## Backtest Results
 - Trades: 20 | Win Rate: 50.0% | Return: +0.81%
@@ -34,3 +34,5 @@
 - **20:32Z**: 🎉 First trade! MEANREV adaptive LONG @ $65,478
 - **00:01Z (Feb 28)**: Routine cron check — pm2 online 6h, BTC $65,895, position +0.64%
 - **00:31Z (Feb 28)**: Cron check — pm2 online 6.5h, BTC $65,744, position +0.41%, healthy
+- **01:02Z (Feb 28)**: Cron check — pm2 online 7h, BTC $65,898, position +0.64%, all green
+- **01:31Z (Feb 28)**: Cron check — pm2 online 7.5h, BTC $65,757, position +0.43%, no new signals (adaptive active 5h), waiting for TP $67,443 or SL $64,169
