@@ -3,19 +3,19 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $63,656 (as of 08:01Z Feb 28)
+- **BTC Price**: $63,623 (as of 10:01Z Feb 28)
 - **Portfolio**: ~$10,003 (+0.03%)
-- **Positions**: 1 open — MEANREV LONG @ $63,534 (+0.19%)
+- **Positions**: 1 open — MEANREV LONG @ $63,534 (+0.14%)
 - **Total Trades**: 2 closed, 1 open (3 total)
-- **pm2**: online, uptime ~14h, 2 restarts, no errors
+- **pm2**: online, uptime ~15.5h, 2 restarts, no errors
 
 ## Backtest Results
 - Trades: 20 | Win Rate: 50.0% | Return: +0.81%
 - Config: Trend(EMA 5/13) + MeanRev(RSI 14) | SL=-2% TP=3% | Size=5%
 
 ## Current Market
-- BTC $63,580 — continued drop from $65,900 peak. Down ~3.5% in 4h
-- MEANREV LONG @ $63,534: +0.07%, fresh entry after SL close
+- BTC $63,697 — stabilizing after flash drop to $63,534. Slight recovery
+- MEANREV LONG @ $63,534: +0.26%, holding post-bounce
 - SL $62,263 / TP $65,440
 - Prior trades: TREND SHORT closed TP +3.60%, MEANREV LONG closed SL -2.97%
 
@@ -52,3 +52,8 @@
 - **07:01Z (Feb 28)**: ⚠️ BTC FLASH DROP to $64,342! MEANREV LONG -1.73% (SL $64,169 imminent), TREND SHORT +2.37% (TP $63,927 close). Hedged portfolio stable at ~$10,003. First exits likely on next check cycle. 13h runtime, 2 open, 0 closed
 - **07:31Z (Feb 28)**: 🎉 FIRST CLOSES! TREND SHORT hit TP (+3.60%), MEANREV LONG hit SL (-2.97%). Net ~flat. New MEANREV LONG opened @ $63,534. BTC $63,580. Portfolio ~$10,003. 13.5h runtime, 2 closed, 1 open
 - **08:01Z (Feb 28)**: Cron check — pm2 online 14h, 0 errors. BTC $63,656. MEANREV LONG +0.19%. Portfolio ~$10,003. SL $62,263 / TP $65,440. 14h runtime, 2 closed, 1 open
+- **08:31Z (Feb 28)**: Cron check — pm2 online 14.5h, 0 errors. BTC $63,697. MEANREV LONG +0.26%. Portfolio ~$10,003. BTC stabilizing post-drop. 14.5h runtime, 2 closed, 1 open
+- **09:01Z (Feb 28)**: Cron check — pm2 online 15h, 0 errors. BTC $63,572. MEANREV LONG +0.06%. Portfolio ~$10,003. BTC drifting slightly lower. 15h runtime, 2 closed, 1 open
+- **09:31Z (Feb 28)**: Cron check — pm2 online 15.5h, 0 errors. BTC $63,792 (bouncing up from $63,554 low). MEANREV LONG +0.41%. Portfolio ~$10,004. Position recovering nicely. 15.5h runtime, 2 closed, 1 open
+- **10:01Z (Feb 28)**: Cron check — pm2 online 16h, 0 errors. BTC $63,623. MEANREV LONG +0.14%. Portfolio ~$10,003. BTC slightly down from last check. SL $62,263 / TP $65,440. 16h runtime, 2 closed, 1 open. Day 1 milestone: need 7 more closed trades
+- **10:31Z (Feb 28)**: Cron check — pm2 online 16.5h, 0 errors, 2 restarts. BTC $63,611. MEANREV LONG +0.12%. Portfolio ~$10,003 (+0.03%). BTC ranging $63,500-63,800. No new signals. 16.5h runtime, 2 closed, 1 open
