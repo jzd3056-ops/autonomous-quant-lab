@@ -3,11 +3,11 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $63,623 (as of 10:01Z Feb 28)
-- **Portfolio**: ~$10,003 (+0.03%)
-- **Positions**: 1 open — MEANREV LONG @ $63,534 (+0.14%)
+- **BTC Price**: $63,941 (as of 11:01Z Feb 28)
+- **Portfolio**: ~$10,005 (+0.05%)
+- **Positions**: 1 open — MEANREV LONG @ $63,534 (+0.64%)
 - **Total Trades**: 2 closed, 1 open (3 total)
-- **pm2**: online, uptime ~15.5h, 2 restarts, no errors
+- **pm2**: online, uptime ~17h, 2 restarts, no errors
 
 ## Backtest Results
 - Trades: 20 | Win Rate: 50.0% | Return: +0.81%
@@ -57,3 +57,4 @@
 - **09:31Z (Feb 28)**: Cron check — pm2 online 15.5h, 0 errors. BTC $63,792 (bouncing up from $63,554 low). MEANREV LONG +0.41%. Portfolio ~$10,004. Position recovering nicely. 15.5h runtime, 2 closed, 1 open
 - **10:01Z (Feb 28)**: Cron check — pm2 online 16h, 0 errors. BTC $63,623. MEANREV LONG +0.14%. Portfolio ~$10,003. BTC slightly down from last check. SL $62,263 / TP $65,440. 16h runtime, 2 closed, 1 open. Day 1 milestone: need 7 more closed trades
 - **10:31Z (Feb 28)**: Cron check — pm2 online 16.5h, 0 errors, 2 restarts. BTC $63,611. MEANREV LONG +0.12%. Portfolio ~$10,003 (+0.03%). BTC ranging $63,500-63,800. No new signals. 16.5h runtime, 2 closed, 1 open
+- **11:01Z (Feb 28)**: Cron check — pm2 online 17h, 0 errors. BTC $63,941 (uptick!). MEANREV LONG +0.64%. Portfolio ~$10,005 (+0.05%). BTC breaking above $63,900 range. TP $65,440 still 2.3% away. 17h runtime, 2 closed, 1 open
