@@ -1,1 +1,2 @@
 {"action":"OPEN","strategy":"MEANREV","side":"LONG","price":"65478.23","qty":"0.007636","size":"500.00","adaptive":true,"timestamp":"2026-02-27T20:32:56.859Z"}
+{"action":"OPEN","strategy":"TREND","side":"SHORT","price":"65903.54","qty":"0.007208","size":"475.00","adaptive":true,"timestamp":"2026-02-28T03:02:56.869Z"}
