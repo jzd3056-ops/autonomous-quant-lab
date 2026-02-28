@@ -3,11 +3,11 @@
 ## Status: 🟢 RUNNING
 - **Started**: 2026-02-27T18:05Z
 - **Phase**: Live sim-trading (pm2 managed)
-- **BTC Price**: $65,790 (as of 04:01Z Feb 28)
+- **BTC Price**: $65,658 (as of 05:01Z Feb 28)
 - **Portfolio**: ~$10,003 (+0.03%)
-- **Positions**: 2 open — MEANREV LONG @ $65,478 (+0.48%) + TREND SHORT @ $65,904 (+0.17%)
+- **Positions**: 2 open — MEANREV LONG @ $65,478 (+0.06%) + TREND SHORT @ $65,904 (+0.58%)
 - **Total Trades**: 0 closed, 2 open
-- **pm2**: online, uptime ~10h, 2 restarts, no errors
+- **pm2**: online, uptime ~10.5h, 2 restarts, no errors
 
 ## Backtest Results
 - Trades: 20 | Win Rate: 50.0% | Return: +0.81%
@@ -44,3 +44,5 @@
 - **03:02Z (Feb 28)**: 🎉 TREND SHORT opened! 0.007208 BTC @ $65,904 (adaptive signal). Now 2 positions open (hedged)
 - **03:31Z (Feb 28)**: Cron check — pm2 online 9.5h, BTC $65,906. 2 positions: MEANREV LONG +0.65%, TREND SHORT ±0%. Portfolio ~$10,003.27. Hedged exposure, waiting for breakout
 - **04:01Z (Feb 28)**: Cron check — pm2 online 10h, BTC $65,790. MEANREV LONG +0.48%, TREND SHORT +0.17%. Portfolio ~$10,003. Hedged, ranging market, waiting for breakout
+- **04:31Z (Feb 28)**: Cron check — pm2 online 10.5h, BTC $65,519 (dipping). MEANREV LONG +0.06%, TREND SHORT +0.58%. Hedged positions offsetting — SHORT benefiting from dip. Portfolio ~$10,003. SL levels: LONG $64,169, SHORT $67,222
+- **05:01Z (Feb 28)**: Cron check — pm2 online 11h, 0 errors. BTC $65,658. MEANREV LONG +0.27%, TREND SHORT +0.37%. Portfolio ~$10,003. Hedged, ranging market. No new signals. 2 open, 0 closed trades
