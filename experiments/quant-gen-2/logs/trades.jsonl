@@ -3,3 +3,4 @@
 {"action":"CLOSE_TP","strategy":"TREND","side":"SHORT","pnl":"3.60%","cash":"9517.08","timestamp":"2026-02-28T07:02:56.873Z"}
 {"action":"CLOSE_SL","strategy":"MEANREV","side":"LONG","pnl":"-2.97%","cash":"10002.23","timestamp":"2026-02-28T07:02:56.873Z"}
 {"action":"OPEN","strategy":"MEANREV","side":"LONG","price":"63534.26","qty":"0.007872","size":"500.11","adaptive":true,"timestamp":"2026-02-28T07:02:56.873Z"}
+{"action":"OPEN","strategy":"TREND","side":"SHORT","price":"65009.46","qty":"0.007308","size":"475.11","adaptive":true,"timestamp":"2026-02-28T14:02:57.078Z"}
